@@ -398,11 +398,6 @@ flex-wrap:wrap;
     font-size:1.2rem;
     margin-top:0.2rem;
   }
-  .background-image{
-    background:url(/PICTURES/showcse.jpg), center/cover no-repeat;
-    height:100%;
-    opacity:0.4;
-  }
   button{
     display:inline-block;
     top:50%;
@@ -413,7 +408,10 @@ flex-wrap:wrap;
   .background-image{
     height:100%;
     width:auto;
-    background: cover/center;
+    opacity:0.4;
+    background: url ("./PICTURES/showcse.jpg");
+    background-position:center;
+    background-size:cover;
   }
   .copyright,.social-media{
     margin: 0;
@@ -429,9 +427,9 @@ flex-wrap:wrap;
     #second-menu .sides{
       background:#000;
       color:#fff;
-      font-size:0.7rem;
+      font-size:1rem;
       text-decoration:none;
-      padding:0.3rem;
+      padding:0.5rem;
       z-index:7;
       }
       #second-menu li{
