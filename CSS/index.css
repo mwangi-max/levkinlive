@@ -501,7 +501,7 @@ flex-wrap:wrap;
         margin:0 0.2rem;
       }
 }
-@media(max-width:600px){
+@media(min-width:600px){
   .identity{
     flex-direction:column;
     margin:0 auto;
