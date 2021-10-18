@@ -346,7 +346,7 @@ fieldset{
 .pricing_b{
   display:none;
 }
-@media(min-width:1092px){
+@media(max-width:1092px){
   body{
     margin:0 auto; 
     box-sizing: border-box;
