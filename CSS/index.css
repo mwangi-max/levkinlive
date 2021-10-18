@@ -196,6 +196,7 @@ footer{
 #photo{
   height:30rem;
   width:auto;
+  margin:0 auto;
   border-radius:1rem;
 }
 #founder{
@@ -366,19 +367,19 @@ flex-wrap:wrap;
     justify-content:center;
   }
   .icon{
-    height:1rem;
-    width:2rem;
+    height:2rem;
+    width:3rem;
     margin-top:0.5rem;
     border:1px solid black;
   
   }
   #title{
-    font-size:1.5rem;
+    font-size:2rem;
     margin:0;
     padding: 0 0.2rem;
   }
   span{
-    font-size:1.5rem;
+    font-size:2rem;
   }
   nav ul li{
     margin:0;
@@ -386,14 +387,19 @@ flex-wrap:wrap;
   }
   nav li > a{
     text-decoration:none;
-    padding:0.3rem;
-    border-radius:0.2rem;
-    font-size:0.8rem; 
+    padding:0.8rem;
+    border-radius:0.4rem;
+    font-size:1rem; 
     z-index:1;
   }
   #introduction{
     font-size:1.2rem;
     margin-top:0.2rem;
+  }
+  .background-image{
+    background:url(/PICTURES/showcse.jpg) center center/cover no-repeat;
+    height:100%;
+    opacity:0.4;
   }
   button{
     display:inline-block;
