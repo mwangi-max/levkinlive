@@ -141,7 +141,9 @@ z-index:7;
 
 }
 .background-image{
-  background:url("./PICTURES/showcse.jpg"), center/cover no-repeat;
+  background:url("./PICTURES/showcse.jpg");
+  background-position:center;
+  background-size:cover;
   height:100%;
   opacity:0.4;
 }
