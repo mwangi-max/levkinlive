@@ -401,7 +401,7 @@ flex-wrap:wrap;
     margin:0;
     position:relative;
   }
-  nav ul li a{
+  nav ul li a, .fa{
     padding:0.5rem;
   }
   
