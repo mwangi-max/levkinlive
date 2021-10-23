@@ -550,16 +550,22 @@ flex-wrap:wrap;
     width:2.5rem;
   }
   .first{
-    font-size:2rem;
+    font-size:1.5rem;
+  }
+  #top{
+    margin:0;
+  }
+  .identity{
+    margin:0;
   }
   nav ul li{
-    margin:0.1rem;
+    margin:0;
     padding:0.2rem;
   }
   nav li > a{
-    padding:0.3rem;
+    padding:0.2rem;
     border-radius:0.2rem;
-    font-size:0.8rem; 
+    font-size:0.7rem; 
     z-index:1;
   }
   #second-menu .sides{
@@ -611,9 +617,6 @@ flex-wrap:wrap;
       height:15rem;
       width:auto;
     }
-    .fab{
-      padding: 0.2rem 0 0.2rem 0;
-    }
     .req{
       height:10rem;
       width:9rem;
@@ -632,8 +635,12 @@ flex-wrap:wrap;
       margin-top:0.3rem;
     }
     #footer{
-height:100vh;
+        height:100vh;
+        width:100vw;
 
+    }
+    .copyright,.social-media{
+      font-size:0.7rem;
     }
     .namba{
       text-align:center;
