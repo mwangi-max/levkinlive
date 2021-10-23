@@ -365,9 +365,6 @@ fieldset{
     margin:0 auto; 
     box-sizing: border-box;
   }
-  nav ul{
-flex-wrap:wrap;
-  }
   nav ul li{
     margin:0.1rem;
     padding:0.4rem;
@@ -402,7 +399,7 @@ flex-wrap:wrap;
     position:relative;
   }
   nav ul li a, .fa{
-    padding:0.8rem;
+    padding:0.4rem;
   }
   
   #introduction{
