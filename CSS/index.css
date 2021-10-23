@@ -399,8 +399,10 @@ flex-wrap:wrap;
   }
   nav ul li{
     margin:0;
-    padding:0.5rem;
     position:relative;
+  }
+  nav ul li a{
+    padding:0.5rem;
   }
   
   #introduction{
