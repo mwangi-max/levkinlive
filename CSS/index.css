@@ -138,25 +138,26 @@ z-index:7;
 #section-a{
   height:85%;
   width:100%;
+  position:relative;
+  
 
 }
-.background-image{
-  position:absolute;
-  background:url("/PICTURES/showcse.jpg");
-  background-position:center;
-  background-size:cover;
+#background-image{
+  background:url("/levkinlive/PICTURES/showcse.jpg");
   height:100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   opacity:0.4;
 }
-#introduction{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
+#section-a > #introduction{
   font-size:2rem;
   font-weight:bold;
   text-align:center;
-  margin-top:-5rem; 
+   position:absolute;
+  top:10%;
+  left:20rem; 
+  z-index:1;  
 }
 button{
   position:absolute;
@@ -165,6 +166,7 @@ button{
   margin:2rem 0;
   padding:1.2rem;
   transform:translateX(-50%);
+  z-index:2;
 }
 button:hover{
   background:darkgray;
