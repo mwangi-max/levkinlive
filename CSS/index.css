@@ -141,6 +141,7 @@ z-index:7;
 
 }
 .background-image{
+  position:absolute;
   background:url("/PICTURES/showcse.jpg");
   background-position:center;
   background-size:cover;
@@ -414,6 +415,7 @@ fieldset{
     padding:1rem;
   }
   .background-image{
+    position:absolute;
     height:100%;
     width:auto;
     opacity:0.4;
