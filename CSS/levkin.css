@@ -1,0 +1,110 @@
+.wrapper{
+    margin:0 1rem;
+}
+#content, #ajira, #coursera, #kenya{
+    line-height:2;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#photo{
+    height:10rem;
+    width:auto;
+    margin:0.4rem 0;
+    transform: translateX(50%);
+    border-radius:1.5rem;
+}
+#kamau{
+    text-align:center;
+    line-height:2;
+    font-size:1.3rem;
+}
+#kamau span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:red;
+    font-weight:bold;
+}
+.first{
+    font-size:1.5rem;
+    text-decoration:underline;
+    margin:0;
+}
+#kenya, #ajira, #coursera{
+    margin:0.6rem 0;
+}
+.small{
+    height:20rem;
+    width:auto;
+    float:left;   
+}
+.fa{
+    display:none;
+}
+.medium{
+    margin:1rem;
+}
+.big{
+    margin-top:0.3rem;
+}
+.top{
+    font-size:1.4rem;
+}
+#longs, #terms, #shorts{
+    height:70vh;
+}
+.shorts{
+    list-style-type: disc;
+    line-height:1.8rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.para {
+    list-style-type: numbers;
+    margin:1rem;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cost{
+    list-style-type: upper-roman;
+    margin:0 1.8rem;
+    color:#00f;
+}
+.link{
+    text-decoration:underline;
+}
+.longs{
+    font-size:1.8rem;
+    font-weight:bold;
+    text-decoration:underline;
+    margin:1rem;
+}
+.last{
+    height:5rem;
+    width:auto;
+    float:left;
+    margin: 0 0.8rem 0 0;
+}
+ .open, .dev, .facebook, .seo{
+    line-height:1.8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contact{
+    height:70vh;
+    position:relative;
+}
+#numbers{
+    display:grid;
+    grid-gap:1.6rem;
+}
+#numbers >p{
+    margin:0 auto;
+    font-weight:bold;
+    font-size:1.8rem;
+}
+ #contact > p{
+     text-align:center;
+     font-weight:bold;
+     color:#00f;
+     text-decoration:underline;
+     font-size:1.5rem;
+ }
+ .social-media, .copyright{
+     transform:translateX(50%);
+ }
