@@ -95,7 +95,7 @@ header{
 #introduction{
   position:absolute;;
 text-align:center;
- top:10%;
+ top:5%;
   left:50%;
   transform:translateX(-50%);
 font-size:1.8rem;
@@ -123,6 +123,7 @@ button{
   background:cyan;
   padding:0.2rem;
   border-radius: 0.2rem;
+  font-size:0.4rem;
 }
 #space{
   position:absolute;
