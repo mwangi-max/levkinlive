@@ -142,8 +142,6 @@ button{
 footer{
   height:10vh;
   width:auto;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
+  display:grid;
   margin: 0 0.2rem;
 }
