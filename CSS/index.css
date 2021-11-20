@@ -135,10 +135,13 @@ button{
 }
 .copyright{
   font-weight:bold;
+  background:lightskyblue;
 }
 footer{
   height:10vh;
   width:auto;
-  display:grid;
-  margin: 0 0.2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
 }
