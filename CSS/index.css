@@ -121,7 +121,7 @@ button{
 }
 .social-media a{
   background:cyan;
-  padding:0.5rem;
+  padding:0.2rem;
   border-radius: 0.2rem;
 }
 #space{
@@ -136,6 +136,14 @@ button{
 .copyright{
   font-weight:bold;
   background:lightskyblue;
+  padding:0.2rem;
+  height:0.3rem;
+  width:100vh;
+  margin:0;
+}
+#social-media{
+  height:0.7rem;
+  width:auto;
 }
 footer{
   height:10vh;
