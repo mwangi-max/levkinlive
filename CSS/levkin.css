@@ -106,5 +106,5 @@
      font-size:1.5rem;
  }
  .social-media, .copyright{
-     transform:translateX(50%);
+     text-align:center;
  }
