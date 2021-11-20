@@ -98,7 +98,7 @@ text-align:center;
  top:5%;
   left:50%;
   transform:translateX(-50%);
-font-size:1.8rem;
+font-size:1.6rem;
 font-weight:bold;
 }
 button{
@@ -132,9 +132,6 @@ button{
 }
 .fa, .fab{
   margin-right:0.1rem;
-}
-.fas, .fa{
-  display:none;
 }
 .copyright{
   font-weight:bold;
