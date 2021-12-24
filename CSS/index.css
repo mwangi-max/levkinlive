@@ -66,13 +66,14 @@ nav ul{
 }
 
 nav li{
-  margin:0 0.2rem;
+  margin:0 0.1rem;
   position:relative;
 }
 nav li a{
-  padding:0.2rem;
+  padding:0.1rem;
   background:cyan;
   border-radius:0.1rem;
+  font-size:0.8rem;
 }
 h1,h2,h3,h4,h5,h6{
   margin:0;
@@ -93,7 +94,7 @@ nav li:hover #second-menu{
 }
 #second-menu li{
   font-size:0.8rem;
-  margin: 0.2rem;
+  margin: 0.1rem;
 }
 header{
   min-height:15vh;
@@ -135,7 +136,7 @@ button{
   left:50%;
   transform:translate(-50%, -50%);
   font-size:1rem;
-  background:limegreen;
+  background:rgb(124, 115, 241);
   cursor:pointer;
   padding:0.3rem;
   display:inline-block;
@@ -189,11 +190,10 @@ margin-left: 5rem;
 footer{
   min-height:5vh;
   width:100vw;
-  display:flex;
-  margin:0.4rem;
-  justify-content:space-evenly;
+  display:grid;
+  margin:0.1rem;
+  justify-content:center;
   align-items:center;
-  margin:0;
   background-color: lightgoldenrodyellow;
   border-top:2px solid red;
 }
