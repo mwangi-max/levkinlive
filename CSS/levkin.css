@@ -285,4 +285,7 @@ fieldset, legend{
     width:auto;
     float:left;
 }
+footer{
+    display:flex
+}
  }
