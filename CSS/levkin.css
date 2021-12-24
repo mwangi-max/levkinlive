@@ -6,10 +6,9 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 #photo{
-    height:10rem;
-    width:auto;
-    margin:0.4rem 0;
-    transform: translateX(50%);
+    min-height:10rem;
+    width:100%;
+    margin:0 auto;
     border-radius:1.5rem;
 }
 #kamau{
@@ -17,13 +16,20 @@
     line-height:2;
     font-size:1.3rem;
 }
+legend{
+    margin-left:1.5rem;
+    font-size:1rem;
+}
+#last{
+    margin-bottom:0.3rem;
+}
 #kamau span{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:red;
     font-weight:bold;
 }
 .first{
-    font-size:1.5rem;
+    font-size:1.2rem;
     text-decoration:underline;
     margin:0;
 }
@@ -31,24 +37,30 @@
     margin:0.6rem 0;
 }
 .small{
-    height:20rem;
+    height:15rem;
     width:auto;
-    float:left;   
+    float:left; 
+    margin-right:0.6rem;  
 }
 .fa{
-    display:none;
+    /* display:none; */
 }
 .medium{
     margin:1rem;
+    height:20rem;
+    width:auto;
+    float:left;
 }
 .big{
     margin-top:0.3rem;
 }
 .top{
     font-size:1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #longs, #terms, #shorts{
-    height:70vh;
+    min-height:70vh;
+    width:100%;
 }
 .shorts{
     list-style-type: disc;
@@ -76,14 +88,13 @@
     margin:1rem;
 }
 .last{
-    height:5rem;
+    height:13rem;
     width:auto;
     float:left;
     margin: 0 0.8rem 0 0;
 }
  .open, .dev, .facebook, .seo{
     line-height:1.8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #contact{
     height:70vh;
@@ -91,7 +102,7 @@
 }
 #numbers{
     display:grid;
-    grid-gap:1.6rem;
+    grid-gap:0.6rem;
 }
 #numbers >p{
     margin:0 auto;
@@ -104,4 +115,174 @@
      color:#00f;
      text-decoration:underline;
      font-size:1.5rem;
+ }
+ .mwangi{
+     text-align: center;
+ }
+ .mwangi a{
+     font-size:0.7rem;
+     background:lightgray;
+     padding:0.3rem;
+     border-radius:0.1rem;
+     cursor: pointer;
+ }
+ .mwangi a:hover{
+     background:lightgoldenrodyellow;
+     color:red;
+ }
+ .current{
+     background:black; 
+     color:white;
+ }
+ #connect{
+    text-align: center;
+}
+
+ @media(min-width:900px)
+ {
+    .icon{
+  height:2rem;
+  width:2.3rem;
+  margin: 0 0.2rem;
+}
+#top{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:2;
+    background:lightgoldenrodyellow;
+    
+}
+
+.identity{
+    display:flex;
+}
+#title{
+    font-size:2rem;
+}
+#title>span{
+    color:blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#section-a{
+    min-height:75vh;
+}
+nav ul li a{
+    padding:0.6rem;
+    text-transform:uppercase;
+    border-radius:0.4rem;
+}
+#second-menu{
+    margin-top:0.5rem;
+    z-index: 2;
+}
+#space{
+    margin-top:0.2rem;
+    margin-left:2.3rem;
+}
+#spacer{
+    margin-left:1.7rem;
+    margin-top:0.4rem;
+}
+#second-menu a:hover{
+    color:black;
+    background:white;
+}
+nav ul li a:hover{
+    color:red;
+    background:white;
+    border:1px solid black;
+    text-decoration:underline;
+}
+#introduction{
+    font-size:2rem;
+}
+button{
+    font-size:1.5rem;
+    padding:0.6rem;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    border: 2px solid black;
+    color:black;
+    background:white;
+}
+footer{
+    min-height:10vh;
+    width:100%;
+    justify-content: space-between;
+    align-items:center;
+}
+.social-media{
+    margin-left:1rem;
+
+}
+.social-media a{
+    font-size:1rem;
+    padding:0.3rem;
+    
+}
+.copyright{
+    font-size:1rem;
+    margin-right:1rem;
+}
+.first{
+    font-size:2.3rem;
+}
+.mada{
+    font-size:1.4rem;
+}
+#content, .ku, .shorts, .seo, .dev, .facebook, .open{
+    font-size:2rem;
+}
+.shorts, .seo, .facebook, .dev, .open{
+    word-spacing: 0.2rem;
+    line-height:2;
+}
+.para{
+    font-size:1.6rem;
+    color:#00f;
+    line-height:2;
+    word-spacing:0.4rem;
+}
+.big{
+    height:20rem;
+    width:auto;
+    margin-right:1.5rem;
+
+}
+.medium{
+    float:left;
+    height:35rem;
+    width:auto;
+}
+.top{
+    font-size:3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#founder{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+#me{
+    margin-right:1rem;
+    margin-top:4rem;
+}
+fieldset, legend{
+    font-size:1.4rem;
+}
+.mwangi a{
+    font-size:1.3rem;
+    padding:0.4rem;
+    border-radius:0.4rem;
+}
+.last{
+    height:20rem;
+    width:auto;
+    float:left;
+}
  }
