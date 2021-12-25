@@ -20,6 +20,9 @@ legend{
     margin-left:1.5rem;
     font-size:1rem;
 }
+.certs{
+    margin-left:0.5rem;
+}
 #last{
     margin-bottom:0.3rem;
 }
@@ -38,21 +41,22 @@ legend{
 }
 .small{
     height:15rem;
-    width:auto;
+    width:100%;
     float:left; 
     margin-right:0.6rem;  
 }
 .fa{
-    /* display:none; */
+    display:none;
 }
 .medium{
     margin:1rem;
     height:20rem;
-    width:auto;
+    width:100%;
     float:left;
 }
 .big{
     margin-top:0.3rem;
+    width:100%;
 }
 .top{
     font-size:1.4rem;
@@ -89,7 +93,7 @@ legend{
 }
 .last{
     height:13rem;
-    width:auto;
+    width:100%;
     float:left;
     margin: 0 0.8rem 0 0;
 }
@@ -98,7 +102,12 @@ legend{
 }
 #contact{
     height:70vh;
+    width:100%;
     position:relative;
+}
+#barua{
+    display: none;
+    font-size:0.2rem;
 }
 #numbers{
     display:grid;
@@ -118,17 +127,25 @@ legend{
  }
  .mwangi{
      text-align: center;
+     display:flex;
+     justify-content: space-evenly;
+     align-items:center;
+     flex-wrap: wrap;
  }
- .mwangi a{
-     font-size:0.7rem;
+  .mwangi a{
      background:lightgray;
      padding:0.3rem;
-     border-radius:0.1rem;
+     border-radius:0.3rem;
      cursor: pointer;
- }
+     margin-bottom: 0.8rem;
+     font-size:0.8rem;
+     border: none;
+     outline: none;
+ } 
  .mwangi a:hover{
      background:lightgoldenrodyellow;
      color:red;
+     box-shadow: rgba(0, 0, 0, 0.6);
  }
  .current{
      background:black; 
@@ -138,7 +155,7 @@ legend{
     text-align: center;
 }
 
- @media(min-width:900px)
+ @media(min-width:920px)
  {
     .icon{
   height:2rem;
@@ -162,10 +179,7 @@ legend{
 #title{
     font-size:2rem;
 }
-#title>span{
-    color:blue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 #section-a{
     min-height:75vh;
 }
@@ -173,6 +187,9 @@ nav ul li a{
     padding:0.6rem;
     text-transform:uppercase;
     border-radius:0.4rem;
+    margin:0 0.7rem;
+    transition: 2s ease-in-out;
+    font-size:0.8rem;
 }
 #second-menu{
     margin-top:0.5rem;
@@ -180,11 +197,11 @@ nav ul li a{
 }
 #space{
     margin-top:0.2rem;
-    margin-left:2.3rem;
+    margin-left:1.8rem;
 }
 #spacer{
-    margin-left:1.7rem;
-    margin-top:0.4rem;
+    margin-left:1.4rem;
+    margin-top:0.2rem;
 }
 #second-menu a:hover{
     color:black;
@@ -195,6 +212,7 @@ nav ul li a:hover{
     background:white;
     border:1px solid black;
     text-decoration:underline;
+    box-shadow: 0 0 1rem blue;
 }
 #introduction{
     font-size:2rem;
@@ -203,14 +221,20 @@ button{
     font-size:1.5rem;
     padding:0.6rem;
     font-weight:bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:cyan;
+    transition: 2s ease-in-out;
+    border:none;
+    outline:none;
 }
 button:hover{
     border: 2px solid black;
     color:black;
     background:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.6);
 }
 footer{
+    display: flex;
+    flex-direction: row;
     min-height:10vh;
     width:100%;
     justify-content: space-between;
@@ -221,12 +245,12 @@ footer{
 
 }
 .social-media a{
-    font-size:1rem;
+    font-size:1.5;
     padding:0.3rem;
     
 }
 .copyright{
-    font-size:1rem;
+    font-size:1.3rem;
     margin-right:1rem;
 }
 .first{
@@ -268,17 +292,15 @@ footer{
     display:grid;
     grid-template-columns: 1fr 2fr;
 }
+.mwangi a{
+    font-size:1.3rem;
+}
 #me{
     margin-right:1rem;
     margin-top:4rem;
 }
 fieldset, legend{
     font-size:1.4rem;
-}
-.mwangi a{
-    font-size:1.3rem;
-    padding:0.4rem;
-    border-radius:0.4rem;
 }
 .last{
     height:20rem;
@@ -289,3 +311,20 @@ footer{
     display:flex
 }
  }
+ @media (min-width:1024px){
+     #title{
+    font-size:2rem;
+}
+nav ul li a{
+    font-size:1.3rem;
+}
+.social-media a{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+.copyright{
+    font-size:1.3rem;
+}
+ }
+     
+ 
