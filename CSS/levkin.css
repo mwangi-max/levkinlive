@@ -272,6 +272,10 @@ footer{
     padding:0.3rem;
     
 }
+.connect{
+    margin: 0 2rem;
+    text-align: center;
+}
 .copyright{
     font-size:1.3rem;
     margin-right:1rem;
@@ -364,6 +368,12 @@ h5{
 #cost li{
     color:blue;
 }
+.blog:hover{
+     background:white;
+     color:black;
+     box-shadow: rgba(0, 0, 0, 0.6) ;
+     text-decoration: underline;
+ }
  }
      
  
