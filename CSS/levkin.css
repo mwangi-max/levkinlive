@@ -46,7 +46,10 @@ legend{
     margin-right:0.6rem;  
 }
 .fa{
-    display:none;
+    
+}
+h5{
+    font-size:1.5rem;
 }
 .medium{
     margin:1rem;
@@ -141,7 +144,23 @@ legend{
      font-size:0.8rem;
      border: none;
      outline: none;
+ }
+ .blog{
+     background:lightgray;
+     padding:0.3rem 0.6rem;
+     border-radius:0.3rem;
+     cursor: pointer;
+     margin-bottom: 0.8rem;
+     font-size:1rem;
+     border: none;
+     outline: none;
  } 
+ .blog:hover{
+     background:white;
+     color:black;
+     box-shadow: rgba(0, 0, 0, 0.6) ;
+     text-decoration: underline;
+ }
  .mwangi a:hover{
      background:lightgoldenrodyellow;
      color:red;
@@ -154,6 +173,10 @@ legend{
  #connect{
     text-align: center;
 }
+.connect{
+    margin: 0 2rem;
+    text-align: center;
+}
 
  @media(min-width:920px)
  {
@@ -162,14 +185,14 @@ legend{
   width:2.3rem;
   margin: 0 0.2rem;
 }
-#top{
+header{
     display:flex;
-    justify-content: space-between;
     align-items:center;
-    position:sticky;
-    top:0;
+    justify-content: space-between;
     z-index:2;
     background:lightgoldenrodyellow;
+    position:sticky;
+    top:0;
     
 }
 
@@ -230,7 +253,7 @@ button:hover{
     border: 2px solid black;
     color:black;
     background:white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 footer{
     display: flex;
@@ -307,6 +330,9 @@ fieldset, legend{
     width:auto;
     float:left;
 }
+h5{
+    font-size:2rem;
+}
 footer{
     display:flex
 }
@@ -324,6 +350,19 @@ nav ul li a{
 }
 .copyright{
     font-size:1.3rem;
+}
+#second-menu{
+margin:0.2rem 0 0 1.5rem;
+}
+h5{
+    font-size: 2.5rem;
+}
+.para li{
+    color:black;
+    margin-left:0.8rem;
+}
+#cost li{
+    color:blue;
 }
  }
      
