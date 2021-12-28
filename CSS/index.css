@@ -27,21 +27,21 @@ ul{
 a{
   text-decoration:none;
 }
+.logo > div{
+border:1px solid black;
+}
 #first{
   background:#fff;
-  border:1px solid black;
+  
 }
 #second{
   background:#000;
-  border:1px solid black;
 }
 #third{
   background:#00f;
-  border:1px solid black;
 }
 #fourth{
   background:#f00;
-  border:1px solid black;
 }
 .logo{
   display:flex;
