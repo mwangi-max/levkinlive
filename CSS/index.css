@@ -84,6 +84,7 @@ h1,h2,h3,h4,h5,h6{
   padding:0;
   text-align:center;
   color:blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #second-menu{
   position:absolute;
