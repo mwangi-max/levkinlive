@@ -50,13 +50,13 @@ border:1px solid black;
   display:flex;
   align-items:center;
   justify-content: center;
-  margin:0.2rem;
+  margin-top:0.2rem;
 }
 #title{
   margin:0;
   text-align:center;
   color:red;
-  font-size:1.4rem;
+  font-size:1rem;
   letter-spacing:0.1rem;
 }
 #title>span{
@@ -114,15 +114,26 @@ header{
     z-index:2;
     background-color:#E0FFFF;
 }
+.identity{
+  height:8vh;
+  width:100%;
+}
+nav{
+  height:7vh;
+  width:100%;
+}
+#title{
+  margin-bottom:2rem;
+}
 .section-a{
-  min-height:80vh;
+  height:80vh;
   width:100%;
   position:relative;
 }
 .section-a::before{
   content:"";
   position: absolute;
-  background:url(/levkinlive/PICTURES/showcse.jpg) no-repeat center center/cover;
+  background:url(/levkinlive/PICTURES/showcase-main.jpg) no-repeat center center/cover;
   opacity:0.4;
   height:100%;
   width:100%;
@@ -171,13 +182,17 @@ button:hover{
   margin-right:0.1rem;
 }
 .copyright{
+  height:2.5vh;
   font-weight:bold;
   padding:0.1rem;
-  font-size:1rem;
+  font-size:0.5rem;
   text-align:center;
+  margin-top: 0.2rem;
 }
 .social-media{
-  margin-top:0.4rem;
+  height:2.5vh;
+  width:auto;
+  margin-top:0.5rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -185,10 +200,10 @@ button:hover{
 }
 .social-media a{
   background:cyan;
-  padding:0.3rem;
+  padding: 0 0.2rem;
   margin:0 0.2rem;
   border-radius: 0.2rem;
-  font-size:0.8rem;
+  font-size:0.5rem;
   border:none;
   outline: none;
  
