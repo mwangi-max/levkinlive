@@ -106,6 +106,7 @@ nav li:hover #second-menu{
   padding:0.2rem;
 }
 header{
+  margin:0 auto;
   height:15vh;
   width:100vw;
    position:sticky;
@@ -213,6 +214,7 @@ list-style-type: square;
 margin-left: 5rem;
 }
 footer{
+  margin: 0 auto;
   height:5vh;
   width:100vw;
   display:flex;
