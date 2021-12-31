@@ -13,6 +13,7 @@ body{
   height:100vh;
   width:100%;
   font-family: Arial, Helvetica, sans-serif;
+  background: rgba(80, 80, 80, 0.1);
 }
 .icon{
   height:1.2rem;
@@ -107,7 +108,7 @@ header{
    position:sticky;
     top:0;
     z-index:2;
-    background:lightgoldenrodyellow;
+    background-color:#E0FFFF;
 }
 .section-a{
   min-height:80vh;
@@ -215,6 +216,6 @@ footer{
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  background-color: lightgoldenrodyellow;
+  background-color:#E0FFFF;
   border-top:2px solid red;
 }
