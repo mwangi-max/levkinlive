@@ -144,10 +144,10 @@ h5{
  }
  .blog{
      background:lightgray;
-     padding:0.3rem 0.6rem;
+     padding:0.3rem 0.4rem;
      border-radius:0.3rem;
      cursor: pointer;
-     margin-bottom: 0.8rem;
+     margin-bottom: 1rem;
      font-size:1rem;
      border: none;
      outline: none;
