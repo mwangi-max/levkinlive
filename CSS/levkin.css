@@ -301,8 +301,9 @@ footer{
 }
 .medium{
     float:left;
-    height:35rem;
+    height:30rem;
     width:auto;
+    margin-right: 1.5rem;
 }
 .top{
     font-size:3rem;
