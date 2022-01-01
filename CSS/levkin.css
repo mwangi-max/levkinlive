@@ -36,8 +36,8 @@ legend{
     text-decoration:underline;
     margin:0;
 }
-#kenya, #ajira, #coursera{
-    margin:0.6rem 0;
+#kenya, #ajira, #coursera, #last{
+    margin:0.6rem;
 }
 .small{
     height:15rem;
