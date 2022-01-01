@@ -106,13 +106,12 @@ nav li:hover #second-menu{
   padding:0.2rem;
 }
 header{
-  margin:0 auto;
   height:15vh;
   width:100vw;
-   position:sticky;
-    top:0;
     z-index:2;
     background-color:#E0FFFF;
+    position:sticky;
+    top:0;
 }
 .identity{
   height:8vh;
