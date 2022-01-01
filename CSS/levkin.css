@@ -338,7 +338,7 @@ footer{
  }
  @media (min-width:1024px){
      #title{
-    font-size:1.7rem;
+    font-size:2rem;
 }
 nav ul li a{
     font-size:1rem;
@@ -347,6 +347,9 @@ nav ul li a{
     font-size: 1.1rem;
     border-radius: 0.5rem;
     padding:0.1rem;
+}
+#content{
+    margin:0 auto;
 }
 .copyright{
     font-size:1.3rem;
