@@ -43,13 +43,13 @@ legend{
     height:15rem;
     width:100%;
     float:left; 
-    margin-right:0.6rem;  
+    margin:0 auto;  
 }
 h5{
     font-size:1.5rem;
 }
 .medium{
-    margin:1rem;
+    margin:0 auto;
     height:20rem;
     width:100%;
     float:left;
