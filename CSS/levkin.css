@@ -2,11 +2,10 @@
     margin:0 1.5rem;
 }
 #content, #ajira, #coursera, #kenya{
-    line-height:2;
     font-family:Arial, Helvetica, sans-serif;
 }
 #photo{
-    min-height:10rem;
+    height:15rem;
     width:100%;
     margin:0 0.5rem;
     border-radius:1.5rem;
@@ -74,7 +73,6 @@ h5{
 .para {
     list-style-type: numbers;
     margin:1rem;
-    line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #cost{

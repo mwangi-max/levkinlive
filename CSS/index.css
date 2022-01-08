@@ -14,7 +14,13 @@ body{
   width:100%;
   font-family: Arial, Helvetica, sans-serif;
   background: rgba(80, 80, 80, 0.1);
+  font-size:1rem;
+  line-height:1.2rem;
   
+}
+h1{
+  font-size:2rem;
+  line-height:1.1rem;
 }
 .icon{
   height:1.2rem;
@@ -54,7 +60,6 @@ border:1px solid black;
 #unique{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color:#f00;
-  font-size:1rem;
   letter-spacing:0.1rem;
   display: flex;
   flex-direction: column;
@@ -82,13 +87,6 @@ nav li a{
   border-radius:0.1rem;
   font-size:0.8rem;
 }
-h1,h2,h3,h4,h5,h6{
-  margin:0;
-  padding:0;
-  text-align:center;
-  color:blue;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 #second-menu{
   position:absolute;
   display:grid;
@@ -115,11 +113,11 @@ header{
     border-bottom:2px solid red;
 }
 .identity{
-  height:8vh;
+  min-height:8vh;
   width:100%;
 }
 nav{
-  height:7vh;
+  min-height:7vh;
   width:100%;
 }
 .section-a{
@@ -209,7 +207,7 @@ button:hover{
 .social-media a:hover{
     background:white;
   color:black;
-  box-shadow:  0 0 10px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.6);
+  box-shadow:  0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 #home{
@@ -227,10 +225,6 @@ margin-left: 5rem;
 }
 #who{
   margin:0 1.5rem;
-  font-size:1rem;
-}
-.who-we-are > h2{
-  font-size:1.2rem;
 }
 footer{
   margin-top:auto;
