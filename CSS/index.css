@@ -63,9 +63,14 @@ border:1px solid black;
   justify-content: center;
   align-items: center;
   padding:1rem;
+  font-size:1.6rem;
 }
 span{
     color:blue;
+}
+nav{
+  min-height:7vh;
+  width:100%;
 }
 nav ul{
   display:flex;
@@ -80,10 +85,12 @@ nav li{
   position:relative;
 }
 nav li a{
-  padding:0.1rem;
+  padding:0.3rem;
   background:cyan;
-  border-radius:0.1rem;
+  border-radius:0.2rem;
   font-size:0.8rem;
+  margin:0 0.1rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
 }
 #second-menu{
   position:absolute;
@@ -114,10 +121,7 @@ header{
   min-height:8vh;
   width:100%;
 }
-nav{
-  min-height:7vh;
-  width:100%;
-}
+
 .section-a{
   min-height:70vh;
   width:100%;
