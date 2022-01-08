@@ -52,7 +52,6 @@ border:1px solid black;
   display:flex;
   align-items:center;
   justify-content: center;
-  margin-top:1rem;
 }
 #unique{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -113,6 +112,7 @@ header{
 .identity{
   min-height:8vh;
   width:100%;
+  margin-top:1rem;
 }
 nav{
   min-height:7vh;
@@ -181,7 +181,7 @@ button:hover{
   height:2.5vh;
   font-weight:bold;
   padding:0.1rem;
-  font-size:0.5rem;
+  font-size:0.7rem;
   text-align:center;
   margin-top: 0.2rem;
 }
