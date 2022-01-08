@@ -52,7 +52,7 @@ border:1px solid black;
   display:flex;
   align-items:center;
   justify-content: center;
-  margin-top:0.2rem;
+  margin-top:1rem;
 }
 #unique{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -135,13 +135,14 @@ nav{
 #introduction{
   position:absolute;
 text-align:center;
- top:30%;
+ top:45%;
   left:50%;
   transform:translate(-50%, -50%);
 font-size:1.6rem;
 font-weight:bold;
 z-index:2;
 line-height:1.8rem;
+letter-spacing: 0.1rem;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -158,12 +159,13 @@ button{
   border:none;
   border-radius:0.3rem;
   text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 
 }
 button:hover{
   background:white;
   color:black;
-  box-shadow:  0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow:  0 0 20px rgba(0, 0, 0, 0.6);
 }
 
 #space{
@@ -197,7 +199,7 @@ button:hover{
   padding: 0 0.2rem;
   margin:0 0.2rem;
   border-radius: 0.2rem;
-  font-size:0.5rem;
+  font-size:1rem;
   border:none;
   outline: none;
  
