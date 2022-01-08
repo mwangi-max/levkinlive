@@ -54,6 +54,7 @@ legend{
 }
 h5{
     font-size:1.5rem;
+    text-align: center;
 }
 .medium{
     margin:0 auto;
@@ -116,8 +117,9 @@ h5{
     font-size:0.2rem;
 }
 #numbers{
+    padding:0.5rem;
     display:grid;
-    grid-gap:0.6rem;
+    grid-gap:1rem;
 }
 #numbers >p{
     margin:0 auto;
