@@ -62,7 +62,7 @@ border:1px solid black;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top:1rem;
+  padding:1rem;
 }
 span{
     color:blue;
