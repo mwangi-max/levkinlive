@@ -62,7 +62,7 @@ border:1px solid black;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top:2rem;
+  margin-top:1rem;
 }
 span{
     color:blue;
@@ -133,12 +133,12 @@ nav{
   z-index: -1;
 }
 #introduction{
-  position:absolute;;
+  position:absolute;
 text-align:center;
  top:30%;
   left:50%;
   transform:translate(-50%, -50%);
-font-size:2rem;
+font-size:1.6rem;
 font-weight:bold;
 z-index:2;
 line-height:1.8rem;
