@@ -4,7 +4,7 @@
 #content, #ajira, #coursera, #kenya{
     font-family:Arial, Helvetica, sans-serif;
 }
-#content{
+#content , #how{
     font-size:1.2rem;
     line-height: 1.8;
 }
@@ -117,6 +117,7 @@ h5{
     font-size:0.2rem;
 }
 #numbers{
+    margin-top:0.5rem;
     padding:0.5rem;
     display:grid;
     grid-gap:1rem;
