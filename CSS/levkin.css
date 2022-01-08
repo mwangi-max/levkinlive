@@ -172,9 +172,15 @@ h5{
  #connect{
     text-align: center;
 }
+#more{
+    border-left: 2rem solid #00f;
+}
 .connect{
     margin: 0 2rem;
     text-align: center;
+}
+fieldset, .fa{
+    font-size:1rem;
 }
 
  /* @media(min-width:920px)
