@@ -52,6 +52,7 @@ border:1px solid black;
   display:flex;
   align-items:center;
   justify-content: center;
+  padding-top:1rem;
 }
 #unique{
   font-family: Georgia, 'Times New Roman', Times, serif;
