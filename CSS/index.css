@@ -51,16 +51,18 @@ border:1px solid black;
   justify-content: center;
   margin-top:0.2rem;
 }
-#title{
-  margin:0;
-  text-align:center;
-  color:red;
+#unique{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#f00;
   font-size:1rem;
   letter-spacing:0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#title>span{
+span{
     color:blue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav ul{
   display:flex;
@@ -120,11 +122,8 @@ nav{
   height:7vh;
   width:100%;
 }
-#title{
-  margin-bottom:2rem;
-}
 .section-a{
-  min-height:80vh;
+  min-height:75vh;
   width:100%;
   position:relative;
 }
@@ -226,9 +225,16 @@ color:blue;
 list-style-type: square;
 margin-left: 5rem;
 }
+#who{
+  margin:0 1.5rem;
+  font-size:1rem;
+}
+.who-we-are > h2{
+  font-size:1.2rem;
+}
 footer{
   margin-top:auto;
-  min-height:5vh;
+  min-height:10vh;
   width:100vw;
   display:flex;
   flex-direction: column;
