@@ -202,24 +202,26 @@ button:hover{
   font-size:1rem;
   border:none;
   outline: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
  
   
 }
 .social-media a:hover{
     background:white;
   color:black;
-  box-shadow:  0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow:  0 0 20px rgba(0, 0, 0, 0.6);
 }
 
 #home{
-  font-size:1.8rem;
-  font-weight:bolder;
-  color:red;
+  font-size:1.5rem;
+  font-weight:bold;
+  color:#f00;
   margin-left:2rem;
 
 }
 #fam li{
-font-size:1.5rem;
+font-size:1.3rem;
+padding:0.3rem;
 color:blue;
 list-style-type: square;
 margin-left: 5rem;
