@@ -173,7 +173,9 @@ h5{
     text-align: center;
 }
 #more{
-    border-left: 2rem solid #00f;
+    border-left: 0.5rem solid rgba(0, 0, 150, 0.6);
+    padding:0.2rem;
+    background:rgba(0, 0, 50, 0.4);
 }
 .connect{
     margin: 0 2rem;
