@@ -422,7 +422,7 @@ footer{
 }
  }
  
-  @media (min-width:1024px){
+  /* @media (min-width:1024px){
      #unique{
     font-size:2rem;
 }
@@ -533,4 +533,4 @@ h5{
          font-size:2rem;
      }
  }
-     
+      */
