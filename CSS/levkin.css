@@ -234,7 +234,7 @@ fieldset, .fa{
     }
 }
 
- /* @media(min-width:920px)
+ @media(min-width:920px)
  {
     .icon{
   height:2rem;
@@ -421,7 +421,8 @@ footer{
     display:flex
 }
  }
- @media (min-width:1024px){
+ 
+ /* @media (min-width:1024px){
      #unique{
     font-size:2rem;
 }
@@ -533,4 +534,4 @@ h5{
      }
  }
      
-  */
+  */ 
