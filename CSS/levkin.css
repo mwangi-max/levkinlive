@@ -191,6 +191,48 @@ h5{
 fieldset, .fa{
     font-size:1rem;
 }
+@media(min-width:768px)
+{
+    #founder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #photo{
+        height: 20rem;
+        width:50%;
+        margin:0 1rem;
+    }
+    #kamau{
+        font-size:1.3rem;
+        margin:0 auto;
+    }
+    #home{
+        margin-left:25rem;
+        font-size:1.5rem;
+    }
+    #fam{
+        margin-left:25rem;
+    }
+    .medium{
+        height:20rem;
+        width:auto;
+        float:left;
+        margin-right: 1rem;
+    }
+    .big{
+        display: block;
+        height:20rem;
+        width:auto;
+        margin-right: 1rem;
+    }
+    .last{
+        height:15rem;
+        width:auto;
+        margin-right: 1rem;
+    }
+}
 
  /* @media(min-width:920px)
  {
