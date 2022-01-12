@@ -271,6 +271,7 @@ fieldset, .fa{
  @media(min-width:920px)
  {
      body{
+         height:100vh;
          font-size:0.4rem;
          line-height: 1.8;
      }
@@ -283,10 +284,12 @@ header{
     display:flex;
     align-items:center;
     justify-content: space-between;
+    height:15vh;
     
     
 }
 .wrapper{
+    height:70vh;
     display: grid;
     grid-template-columns: 0.3fr 4fr 1fr;
     grid-template-rows: auto;
@@ -317,7 +320,7 @@ header{
          display: flex;
          flex-direction: column;
          justify-content: center;
-         align-items: center;
+         align-items: center; 
      }
      #founder{
          display: grid;
@@ -344,10 +347,6 @@ header{
 #unique{
     font-size:1.5rem;
     padding-top: 2rem;
-}
-
-#section-a{
-    min-height:75vh;
 }
 nav ul li a{
     padding:0.4rem;
@@ -397,9 +396,9 @@ button:hover{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 footer{
+    height:15vh;
     display: flex;
     flex-direction: row;
-    min-height:10vh;
     width:100%;
     justify-content: space-between;
     align-items:center;
@@ -470,7 +469,6 @@ footer{
 }
 #me{
     margin-right:1rem;
-    margin-bottom:100%;
     border:none;
 }
 fieldset, legend{
@@ -480,7 +478,6 @@ fieldset, legend{
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr;
     grid-template-rows: auto;
-    grid-template-areas: 
 }
 .fupi-b{
     
