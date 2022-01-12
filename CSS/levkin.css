@@ -323,9 +323,14 @@ header{
          align-items: center; 
      }
      #founder{
+         grid-area:"content";
          display: grid;
          grid-template-columns: 1fr 2fr;
          grid-template-rows: auto;
+     }
+     #you{
+         grid-area:"content";
+         margin:0;
      }
      #kamau{
          text-align: center;
@@ -395,14 +400,7 @@ button:hover{
     background:white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
-footer{
-    height:15vh;
-    display: flex;
-    flex-direction: row;
-    width:100%;
-    justify-content: space-between;
-    align-items:center;
-}
+
 .social-media{
     margin-left:1rem;
     margin-bottom: 2rem;
@@ -459,11 +457,6 @@ footer{
 #content, .ku, .shorts, .para, .first, .open, .dev, .seo, .facebook{
     font-size: 1.3rem;
 }
-
-#founder{
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-}
 .mwangi a, .blog{
     font-size:0.8rem;
 }
@@ -516,8 +509,13 @@ h5{
 #us{
          font-size:1.5rem;
      }
-footer{
-    display:flex
+     footer{
+    height:15vh;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    align-items:center;
 }
  }
  
