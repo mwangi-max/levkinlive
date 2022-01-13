@@ -15,14 +15,18 @@ body{
   line-height:1.4rem;
   
 }
+#logo{
+  min-height:10vh;
+  width:100%;
+}
+#logo>img{
+  min-height:10vh;
+  width:100%;
+  padding-bottom:0.3rem;
+} 
 h1{
   font-size:2rem;
   line-height:1.1rem;
-}
-.icon{
-  height:1.4rem;
-  width:2.2rem;
-  margin: 0 0.2rem;
 }
 ul{
   margin:0;
@@ -32,45 +36,13 @@ ul{
 a{
   text-decoration:none;
 }
-.logo > div{
-border:1px solid black;
-}
-#first{
-  background:#fff;
-  
-}
-#second{
-  background:#000;
-}
-#third{
-  background:#00f;
-}
-#fourth{
-  background:#f00;
-}
-.logo{
-  display:flex;
-  align-items:center;
-  justify-content: center;
-  padding-top:1rem;
-}
-#unique{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color:#f00;
-  letter-spacing:0.1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding:1rem;
-  font-size:1.6rem;
-}
 span{
     color:blue;
 }
 nav{
-  min-height:7vh;
+  min-height:3vh;
   width:100%;
+  padding-bottom:0.3rem;
 }
 nav ul{
   display:flex;
@@ -143,12 +115,12 @@ text-align:center;
  top:45%;
   left:50%;
   transform:translate(-50%, -50%);
-font-size:1.3rem;
-font-weight:bold;
+font-size:1.5rem;
+font-weight:bolder;
 z-index:2;
 line-height:1.8rem;
 letter-spacing: 0.1rem;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-family:century, sans-serif;
 
 }
 button{
@@ -157,14 +129,16 @@ button{
   left:50%;
   transform:translate(-50%, -50%);
   font-size:1rem;
+  font-weight: bold;
   background:cyan;
   cursor:pointer;
   padding:0.3rem;
   display:inline-block;
   border:none;
+  outline:none;
   border-radius:0.3rem;
   text-transform: uppercase;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6);
 
 }
 button:hover{

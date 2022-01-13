@@ -123,7 +123,7 @@ h5{
 #numbers >p{
     margin:0 auto;
     font-weight:bold;
-    font-size:1.8rem;
+    font-size:1.3rem;
 }
  #contact > p{
      text-align:center;
@@ -189,11 +189,32 @@ h5{
 fieldset, .fa{
     font-size:1rem;
 }
+.now{
+    font-size: 1rem;
+}
 #image-container-a, #image-container-b, #container-c, #container-d, #container-e, #container-f, #container-g, #container-h, #container-i{
     text-align: center;
 }
 @media(min-width:768px)
 {
+    body{
+        height:100vh;
+        width:100%;
+        box-sizing: border-box;
+    }
+    #logo{
+        height:6rem;
+        width:100%;
+    }
+    #logo>img{
+        height:6rem;
+        width:100%;
+    }
+    nav{
+        height:2rem;
+        padding:1rem;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+    }
     #founder{
         display: flex;
         flex-direction: column;
@@ -274,16 +295,12 @@ fieldset, .fa{
          height:100vh;
          font-size:0.4rem;
          line-height: 1.8;
+         box-sizing: border-box;
      }
-    .icon{
-  height:2rem;
-  width:2.3rem;
-  margin: 0 0.2rem;
-}
 header{
     display:flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: center;
     height:15vh;
     
     
@@ -349,21 +366,30 @@ header{
     display:flex;
     margin-left: 2rem;
 }
-#unique{
-    font-size:1.5rem;
-    padding-top: 2rem;
+#logo > img{
+    height:5rem;
+    width: 100%;
+}
+#logo{
+    margin-top:0.4rem;
+    width:50%;
+}
+nav{
+    justify-content: center;
+    align-items: center;
 }
 nav ul li a{
-    padding:0.4rem;
+    padding:0.5rem;
+    font-size:1rem;
     text-transform:uppercase;
     border-radius:0.4rem;
     margin:0 0.3rem;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+    /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.6); */
 }
 #second-menu{
     margin:0;
-    padding-left:2rem;
-    padding-top:0.2rem;
+    padding-left:2.4rem;
+    padding-top:0.6rem;
     z-index: 2;
 }
 #space{
@@ -389,16 +415,13 @@ nav ul li a:hover{
 button{
     font-size:1.5rem;
     padding:0.6rem;
-    font-weight:bold;
-    background:cyan;
-    border:none;
-    outline:none;
+    transition: .6s ease;
 }
 button:hover{
     border: 2px solid black;
     color:black;
     background:white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4) 0 0 20px rgba(0, 0, 0, 0.5) 0 0 25px rgba(0, 0, 0, 0.6);
 }
 
 .social-media{
@@ -517,5 +540,48 @@ h5{
     justify-content: space-between;
     align-items:center;
 }
+ }
+ @media(min-width:2560px){
+     .identity{
+         width:70%;
+         margin-left: 10%;
+     }
+     nav{
+         margin-top:2rem;
+     }
+     .big{
+         height:35rem;
+         width:auto;
+     }
+     .para > li{
+         margin-left:1.5rem;
+     }
+     .one{
+         padding:1rem;
+     }
+     
+     .medium{
+         height:40rem;
+         width: auto;
+     }
+     .weddo{
+         height:40rem;
+         width:auto;
+     }
+     #online{
+         margin-top:12rem;
+     }
+     #boost{
+         margin-top:25rem;
+     }
+     #civic{
+         margin-top:20rem;
+     } 
+     .first{
+         font-size:2.5rem;
+     }
+     .numbers>p{
+         font-size:2.2rem;
+     }
  }
  
