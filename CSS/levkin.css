@@ -63,10 +63,6 @@ h5{
     height:20rem;
     width:20rem;
 }
-.top{
-    font-size:1.4rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 #longs, #terms, #shorts{
     min-height:70vh;
     width:100%;
@@ -173,10 +169,8 @@ h5{
  .current{
      background:black; 
      color:white;
+     border:1px solid #fff;
  }
- #connect{
-    text-align: center;
-}
 #more{
     border-left: 0.5rem solid rgba(0, 0, 150, 0.6);
     padding:0.2rem;
@@ -198,22 +192,28 @@ fieldset, .fa{
 @media(min-width:768px)
 {
     body{
-        height:100vh;
+        min-height:100vh;
         width:100%;
         box-sizing: border-box;
     }
     #logo{
-        height:6rem;
+        min-height:2rem;
         width:100%;
     }
     #logo>img{
-        height:6rem;
+        min-height:2rem;
         width:100%;
     }
     nav{
         height:2rem;
         padding:1rem;
-        box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+    }
+    nav li a{
+        font-size:1.2rem;
+        padding:0.3rem;
+    }
+    #second-menu{
+        padding-top:0.4rem;
     }
     #founder{
         display: flex;
@@ -293,17 +293,71 @@ fieldset, .fa{
  {
      body{
          height:100vh;
-         font-size:0.4rem;
+         width:100%;
          line-height: 1.8;
          box-sizing: border-box;
      }
+
 header{
-    display:flex;
-    align-items:center;
-    justify-content: center;
+    height:20vh;
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#000;
+}
+#logo{
+    padding:0.5rem;
     height:15vh;
-    
-    
+    width:auto;
+}
+#logo>img{
+    height:15vh;
+    width:auto;
+}
+nav{
+    justify-content: center;
+    align-items: center;
+    background:none;
+}
+nav ul li a{
+    padding:0.7rem;
+    font-size:1.2rem;
+    text-transform:uppercase;
+    border-radius:0.4rem;
+    margin:0 0.3rem;
+}
+nav ul li a > .fa{
+    font-size:1.2rem;
+}
+#second-menu{
+    margin:0;
+    padding-left:2.4rem;
+    padding-top:0.2rem;
+    z-index: 2;
+}
+#space{
+    margin-left: 0.3rem;
+}
+#spacer{
+    margin:0;
+}
+#second-menu a:hover{
+    color:black;
+    background:white;
+}
+nav ul li a:hover{
+    color:red;
+    background:white;
+    border:1px solid black;
+    text-decoration:underline;
+    box-shadow: 0 0 1rem blue;
+}
+.section-a{
+    height:70vh;
+}
+.section-a::before{
+    height:70vh;
 }
 .wrapper{
     height:70vh;
@@ -338,16 +392,21 @@ header{
          flex-direction: column;
          justify-content: center;
          align-items: center; 
+         margin:0;
      }
      #founder{
          grid-area:"content";
-         display: grid;
-         grid-template-columns: 1fr 2fr;
-         grid-template-rows: auto;
-     }
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items:center;
+     } 
      #you{
          grid-area:"content";
          margin:0;
+     }
+     .info{
+         margin-top:80%;
      }
      #kamau{
          text-align: center;
@@ -362,53 +421,6 @@ header{
          height:30rem;
          width:auto;
      }
-.identity{
-    display:flex;
-    margin-left: 2rem;
-}
-#logo > img{
-    height:5rem;
-    width: 100%;
-}
-#logo{
-    margin-top:0.4rem;
-    width:50%;
-}
-nav{
-    justify-content: center;
-    align-items: center;
-}
-nav ul li a{
-    padding:0.5rem;
-    font-size:1rem;
-    text-transform:uppercase;
-    border-radius:0.4rem;
-    margin:0 0.3rem;
-    /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.6); */
-}
-#second-menu{
-    margin:0;
-    padding-left:2.4rem;
-    padding-top:0.6rem;
-    z-index: 2;
-}
-#space{
-    margin-left: 0.3rem;
-}
-#spacer{
-    margin:0;
-}
-#second-menu a:hover{
-    color:black;
-    background:white;
-}
-nav ul li a:hover{
-    color:red;
-    background:white;
-    border:1px solid black;
-    text-decoration:underline;
-    box-shadow: 0 0 1rem blue;
-}
 #introduction{
     font-size:1.7rem;
 }
@@ -430,7 +442,7 @@ button:hover{
 
 }
 .social-media a{
-    font-size:1.5;
+    font-size:1.2;
     padding:0.3rem;
     
 }
@@ -511,12 +523,6 @@ column-span: 1/2;
   
    
 }
-#fupi-c{
-border-left: 0.6rem solid #000;
-position:sticky;
-top:0;
-padding-left:1rem;
-}
 .last{
     height:14rem;
     width:auto;
@@ -528,17 +534,23 @@ h5{
 #numbers{
     grid-gap:0.3rem;
     margin:0;
+    
+}
+#numbers>p{
+    font-size:2.2rem;
 }
 #us{
          font-size:1.5rem;
      }
+    
      footer{
-    height:15vh;
+    height:10vh;
     display: flex;
     flex-direction: row;
     width:100%;
     justify-content: space-between;
     align-items:center;
+   
 }
  }
  @media(min-width:2560px){

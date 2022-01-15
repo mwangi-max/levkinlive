@@ -16,13 +16,12 @@ body{
   
 }
 #logo{
-  min-height:10vh;
+  min-height:5vh;
   width:100%;
 }
 #logo>img{
-  min-height:10vh;
+  min-height:5vh;
   width:100%;
-  padding-bottom:0.3rem;
 } 
 h1{
   font-size:2rem;
@@ -40,9 +39,11 @@ span{
     color:blue;
 }
 nav{
-  min-height:3vh;
-  width:100%;
-  padding-bottom:0.3rem;
+  min-height:5vh;
+  min-width:auto;
+  background:#000;
+  margin:0;
+  padding:0.2rem;
 }
 nav ul{
   display:flex;
@@ -57,17 +58,17 @@ nav li{
   position:relative;
 }
 nav li a{
-  padding:0.3rem;
+  padding:0.4rem;
   background:cyan;
   border-radius:0.2rem;
-  font-size:0.8rem;
+  font-size:0.6rem;
   margin:0 0.1rem;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
 }
 #second-menu{
   position:absolute;
   display:grid;
-  margin-left:0.9rem;
+  margin-left:1.5rem;
   margin-top:0.2rem;
   display:none;
   z-index:3;
@@ -83,16 +84,12 @@ nav li:hover #second-menu{
   padding:0.2rem;
 }
 header{
-  min-height:15vh;
-  width:100%;
+  min-height:10vh;
+  min-width:100%;
   margin:0 auto;
     z-index:2;
     background-color:#E0FFFF;
     border-bottom:2px solid red;
-}
-.identity{
-  min-height:8vh;
-  width:100%;
 }
 
 .section-a{
@@ -162,7 +159,9 @@ button:hover{
   padding:0.2rem;
   font-size:0.8rem;
   text-align:center;
-  margin: 0.2rem;
+  margin: 0.2rem; 
+         color:cyan;
+         padding-bottom:2rem;
 }
 .social-media{
   height:2.5vh;
@@ -222,4 +221,5 @@ footer{
   align-items:center;
   background-color:#E0FFFF;
   border-top:2px solid red;
+   background:#000;
 }
