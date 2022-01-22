@@ -113,35 +113,7 @@
         grid-column:3/-1;
         height:10rem;
     }
-    #requiem{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .one{
-        padding:0.5rem;
-    }
-    #nuptials, #online{
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        padding:1rem 0;
-    }
-    .weddo{
-        height:25rem;
-    }
-    #boost{
-        margin:0;
-        padding:0;
-    }
-    #civic, #boost{
-        display:flex;
-        flex-direction:column;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem 0;
-    }
+  
     .first{
         font-size:1.3rem;
         padding:0.5rem;
@@ -149,4 +121,84 @@
     .vote{
         padding:0.5rem;
     }
+}
+@media(min-width:1440px){
+    .navbar{
+        padding:1rem 0;
+    }
+    #second-menu{
+        padding-top:5rem;
+        padding-left:1rem;
+    }
+.navbar li a, #second-menu li a{
+    font-size: 1.5rem;
+}
+#second-menu li a{
+    background:rgba(0,0,0,0.6);
+    color:#f00;
+}
+#introduction{
+    font-size:3rem;
+    color:#00f;
+    font-weight: bold;
+}
+button{
+    font-size:2.2rem;
+    padding: 0.5rem;
+    color:#00f;
+    font-family: arial;
+    background:rgba(190, 0, 0, 0.6)
+}
+.social-media a{
+    font-size:2rem;
+}
+.copyright{
+    font-size:1.6rem;
+}
+#content{
+    line-height:2;
+    word-spacing: 0.1rem;
+}
+#more{
+    font-size:1.8rem;
+    height:20rem;
+}
+#photo{
+    height:30rem;
+}
+#kamau, #home p, .val, .first, #numbers p{
+    font-size:2rem;
+}
+fieldset{
+    font-size:1.4rem;
+    margin:0 8rem;
+}
+legend, .mwangi a, .blog{
+    font-size:1.2rem;
+}
+.one{
+    height:50rem;
+    width:40rem;
+    padding-top:1rem;
+}
+.weddo{
+    height:30rem;
+    width:30rem;
+    padding-top:1rem;
+}
+.medium{
+    height:20rem;
+    width:25rem;
+    padding-top:0.5rem;
+}
+#boost{
+    margin-top:3rem;
+}
+.middle{
+    height:25rem;
+    width:30rem;
+}
+.vote{
+    height:30rem;
+}
 }
