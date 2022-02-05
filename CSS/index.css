@@ -1,406 +1,329 @@
 *{
-  margin:0;
-  padding:0;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-*ul,li{
   padding:0;
   margin:0;
 }
-html{
-  scroll-behavior: smooth;
-
+ul,li{
+  padding:0;
+  margin:0;
 }
 body{
   box-sizing: border-box;
-  font-size:1rem;
+  background:rgba(200, 200,200, 0.2);
   height:100%;
   width:100%;
-  background:rgba(0, 0, 0, 0.2);
   font-family:Helvetica, sans-serif;
-  position: relative;
-   overflow:auto; 
-}
-/* LOGO */
-
-/* Navbar */
- header{
-        box-sizing: border-box;
-        height:15vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        background: #000;
-        padding:1rem;
-         border-bottom:2px solid #f00;
-    }
-.navbar{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.navbar .fa{
-  display:none;
-}
-.navbar .fas{
-  display: none;
-}
-.navbar ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.navbar li{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position:relative;
 }
-.navbar li a,#second-menu li a{
-font-size:0.8rem;
-padding:0.16rem;
-color:white;
-border:1px solid #fff;
-border-radius:0.3rem;
-}
-.fa{
-  padding:0.1rem;
-}
-#second-menu{
-  position:absolute;
-  display: flex;
-  flex-direction: column;
-  margin-top:4.2rem;
-  margin-left:1.1rem;
-  z-index: 5;
-  display: none;
-}
-#second-menu li a{
-  padding:0.1rem 0.2rem;
-  background:rgba(0, 0, 0, 0.4);
-}
-.navbar li a:hover{
-  color:red;
-  background:#fff;
-  box-shadow: 0 0 15px rgba(255,0,0,0.3);
-}
- .navbar li:hover #second-menu {
-  display:grid;
-  z-index:5;
-}
-#second-menu li a:hover{
-  color:#f00;
-  background:#fff;
-}
-
-/* End of navbar navigation */
-#identity{
-    /* text-align: center; */
-    margin:1rem 0;
-   
-}
-#identity img{
-  height:8rem;
-  width:auto;
-}
-/* Start of the main area at the landing page */
-#intro{
-  min-height:70vh;
-  min-width:100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* Home page */
+header{
+  box-sizing:border-box;
+  display:flex;
   align-items: center;
-  position: relative;
-  z-index: -3;
-}
-#introduction{
-  text-align: center;
-  font-family:century,sans-serif;
-  font-size:1.8rem;
-  color:#000;
-  font-weight: bold;
-}
-#into{
-  position:absolute;
-  display: flex;
-  flex-direction:column;
-  align-items:center;
-  top:50%;
-}
-button a{
-  z-index:50;
-}
-button{
-  border:none;
-  outline:none;
-  font-size:1rem;
-  padding:0.5rem;
-  border-radius:3rem;
-  margin-top:1rem;
-  background: #000;
-  color:#f00;
-  box-shadow: 0 5px 0px #f00;
-  z-index: 50; 
-}
-button:hover{
-  color:#fff;
-  background:#000;
-  cursor:pointer;
-  box-shadow:0 0 15px #fff;
-}
- #showcase{
-  background:url('/levkinlive/PICTURES/showcase-main.jpg') no-repeat center center/cover;
-  position: absolute;
-  height:100%;
-  width:100%;
-  opacity:0.6;
-  z-index:-10;
-} 
-.current{
-color:white;
-border:1px solid #fff;
-border-radius:0.3rem;
-background: rgba(255,0,0, 0.7);
-}
-/* End of the main section */
-/* Start of the footer section */
-footer{
+  justify-content: space-evenly;
   height:15vh;
   width:100%;
-  background:rgba(0, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-top:2px solid #f00;
-  padding:1rem 0;
-  overflow: hidden;
+  position:sticky;
+  top:0;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.7);
 }
-.social-media{
+#identity img{
+  height:15rem;
+  width:auto;
+}
+
+.navbar ul{
   display:flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap:wrap;
-  padding-top:0.2rem;
 }
-.social-media a{
-  color:#fff;
-  padding:0.1rem;
-  border:1px solid #fff;
-  border-radius:0.2rem;
-  margin:0.1rem;
+.navbar li{
+  list-style-type:none ;
+  margin:0 1rem;
+  position:relative;
+}
+.navbar li a,.social-media a{
+  text-decoration: none;
+  background:#fff;
+  padding:0.8rem;
+  border-radius:0.3rem;
+  color:red;
+   box-shadow: 0 0 15px #f00;
+
+}
+.navbar li a:hover{
+  background:red;
+  color:white;
 }
 .social-media a:hover{
-  color:red;
-  background:#fff;
-  box-shadow: 0 0 15px rgba(255,0,0,0.3);
+  background:red;
+  color:white;
 }
-.fab{
-  padding:0.2rem;
+.fa, .fab{
+  padding:0 0.1rem;
 }
-.copyright{
-  color:#fff;
-  padding-top:0.2rem
-}
-/* End of footer */
-/* About us page */
-.first{
-  color:#00f;
-  font-size:1.2rem;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  text-align:center;
-  padding:0.2rem;
-}
-#content{
-  margin:0 1rem;
-  line-height:1.6;
-}
-.ku{
-  margin:0.2rem 0.6rem;
-}
-.ku li{
-  margin:0.5rem;
-  list-style-type: none;
-}
-#founder{
-  min-height:70vh;
+#second-menu{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#more{
-  border-left:3px solid #00f;
-  margin:1.6rem;
-  padding:0.2rem;
-  background:rgba(0,0,100, 0.4);
-}
-#photo{
-  height:22rem;
-  width:auto;
-  border-radius: 0.5rem;
-  padding:0.2rem;
-  background:#f00;
-}
-#image-container-a{
-  text-align: center;
-}
-#kamau{
-  text-align:center;
-}
-#kamau>span{
-  color:#f00;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height:1.5;
-}
-#home p{
-  font-size:1.2rem;
-  text-decoration:underline;
-  margin-left:2rem;
-  font-weight:bold;
-  padding:0.5rem;
-}
-.val{
-  margin-left:4rem;
-  color:#00f;
-}
-legend{
-  font-size:0.8rem;
-  margin:0.5rem;
-  padding:0.5rem;
-  color:#00f;
-  text-decoration: underline;
-}
-fieldset{
-  margin: 0 1rem;
-  padding: 1rem;
-  line-height:1.6;
-}
-#content{
-  line-height:1.6;
-}
-.connect{
-  text-align: center;
-}
-.mwangi{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.mwangi a, .blog{
-font-size:0.8rem;
-padding:0.2rem;
-color:white;
-border:1px solid #fff;
-border-radius:0.3rem;
-margin:0.2rem;
-background: rgba(0,0,100, 0.7);
-}
-.mwangi a:hover{
-   color:red;
-  background:#fff;
-  box-shadow: 0 0 15px rgba(255,0,0,0.3);
-}
-.blog:hover{
-   color:red;
-  background:#fff;
-  box-shadow: 0 0 15px rgba(255,0,0,0.3);
-}
-/* End of about us page */
-/* Shorts projects page start */
-.fupi{
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
-.shorts, .open, .who-we-are{
-  margin:0 1rem;
-  line-height:1.5;
-}
-#bereavement{
-  display: flex;
-  flex-direction:column;
-  align-items:center;
-}
-.para{
-  margin-left:2rem;
-  margin-right:1rem;
-}
-.para li{
-  list-style-type: numbers;
-  line-height:1.6;
-  color:rgba(0,0,255, 0.9);
-}
-#image-container-b{
-  text-align:center;
-}
-.one{
-  height:12rem;
-  width:auto;
-}
-#container-c, #container-d, #container-e,#container-f{
-  text-align:center;
-}
-.weddo{
-  height:20rem;
-  width:auto;
-}
-.medium{
-  height:22rem;
-  width:auto;
-}
-.middle{
-  height:13rem;
-  width:auto;
-}
-.big{
-  height:13rem;
-  width:auto;
-}
-.fupi-c, .fupi-b{
+  position:absolute;
+  margin-top:1.3rem;
+  margin-left:1.4rem;
   display:none;
+  flex-wrap:wrap; 
 }
-/* End of the short projects segment */
-/* Start of the longs projects segment */
-#container-g, #container-h, #container-i{
+#second-menu li{
+  margin:0.4rem 0;
+ 
+}
+#space{
+  margin-left:0.1rem;
+}
+.navbar li:hover #second-menu{
+  display:grid;
+  z-index:10;
+}
+#intro{
+  height:70vh; 
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#introduction{
+  display:flex;
+  flex-direction: column;
+  margin-top:40%;
+  justify-content: center;
+}
+#introduction p{
   text-align:center;
+  font-size:3rem;
 }
-.last{
-  height:12rem; 
-  width:auto;
+#levkin{
+  text-align:center;
+  margin:0.5rem;
 }
-/* End projects ends */
-/* Contact us/reach us page commences */
-  #contact{
-height:70vh;
-width:100%;
-  }
-  .now{
-    text-decoration: underline;
-  }
-  #numbers{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-  }
-  #numbers p{
-    margin:0.5rem;
-    font-size:1.5rem;
-    font-weight:bold;
-  }
-  /* End of contacts page */
-  /* Terms and conditions page */
-  #cost li{
-    margin:0 1.2rem;
-    list-style-type: upper-roman;
-    color:black;
-  }
-  /* End of the small screen sizes section */
+#levkin a{
+  text-decoration:none;
+  font-size:1.2rem;
+  background:rgba(255,0,0,0.7);
+  padding:0.5rem;
+  border-radius:0.2rem;
+  box-shadow: 0 0 15px #f00;
+}
+#levkin a:hover{
+  background:white;
+  color:red;
+}
+#showcase{
+  background:url(/levkinlive/PICTURES/showcase-main.jpg) no-repeat center center/cover;
+  position:absolute;
+  height:100%;
+  width:100%;
+  z-index:-3;
+  opacity:0.7;
+}
+footer{
+  box-sizing:border-box;
+  height:15vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background: rgba(0,0,0,0.7);
+  flex-wrap:wrap;
+  overflow:hidden;
+  padding-top:1rem;
+}
+.copyright{
+  margin-top: 1rem;
+  font-size:1.5rem;
+  color:#fff;
+}
+/* About page */
+.first{
+  font-size:2rem;
+  color:#00f;
+  text-align:center;
+  padding:0.5rem 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .wrapper{
+        display:grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: auto;
+    } 
+    #more{
+      grid-column:3/-1;
+        margin-top: 4rem;
+        margin-right:2rem;
+        height:8rem;
+        line-height:1.2;
+        font-size:1rem;
+        padding:0.5rem;
+        background:rgba(0,0, 100, 0.3);
+        border-left:2px solid #00f;
+    }
+    #about{
+      grid-column:2/3;
+      line-height:1.5;
+      font-size:1.5rem;
+    }
+    #me{
+      display:flex;
+      align-items:center;
+      margin:0 6rem;
+    }
+    #photo{
+      height:30rem;
+      padding:1rem;
+      background:#f00;
+      border-radius:0.5rem;
+    }
+    #kamau{
+      text-align:center;
+      font-size:1.5rem;
+      margin:0 1rem;
+    }
+    #kamau span{
+      color:#f00;
+      font-weight:bold;
+    }
+    #home p, .val{
+      margin:0 2rem;
+      font-size:1.5rem;
+    }
+    .val{
+      color:#00f;
+    }
+    #you{
+      margin:0 6rem;
+      padding-bottom:1rem;
+      font-size:1.3rem;
+    }
+    legend{
+      margin-left:1rem;
+    }
+    fieldset{
+      padding:1rem;
+    }
+    .connect{
+      text-align:center;
+    }
+    .mwangi{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .mwangi a{
+      margin:0.5rem;
+      background:rgba(0,0,70, 0.3);
+      padding:0.5rem;
+      text-decoration: none;
+      border-radius:0.4rem;
+    }
+    .blog{
+      margin:0.5rem;
+      font-size:1rem;
+      text-decoration: none;
+      background:rgba(0,0,70, 0.3);
+      padding:0.3rem;
+      border-radius:0.2rem;
+    }
+
+    /* How we came about */
+    #who{
+      min-height:75vh;
+      width:100%;
+    }
+    .who-we-are{
+      margin:0 6rem;
+    }
+    #how{
+      font-size:1.5rem;
+      line-height: 1.5;
+    }
+
+    /* SHORTS PAGE */
+.fupi{
+        display:grid;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        grid-template-rows: auto;
+        line-height:1.5;
+        font-size:1.5rem;
+    }
+    #shorts{
+      grid-column:2/3;
+    }
+    .one, .mwisho,.vote{
+      height:20rem;
+      width:auto;
+      text-align: center;
+      border-radius:1rem;
+    } 
+    .weddo, .kuandika{
+      height:30rem;
+      width:auto;
+      border-radius:1rem;
+    }
+    #container-c, #container-d, #container-e,#container-f, #image-container-b{
+      text-align:center;
+      margin:0.5rem 0;
+    }
+    #sample{
+      display: flex;
+      margin:1rem;
+      justify-content: center;
+    }
+
+    /* LONGS PROJECTS PAGE */
+    .refu{
+        display:grid;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        grid-template-rows: auto;
+        line-height:1.5;
+        font-size:1.5rem;
+    }
+    #longs{
+      grid-column:2/3;
+    }
+    .last{
+      height:25rem;
+      width:auto;
+      border-radius:1rem;
+    }
+    .container-long{
+      text-align:center;
+      }
+
+      /* TERMS AND CONDITIONS PAGE */
+      .terms{
+        margin:0 6rem;
+        line-height:1.5;
+        font-size:1.5rem;
+      }
+      .para li{
+        list-style-type: numeric;
+      }
+      #cost{
+        margin-left:3rem;
+        padding:0.5rem;
+      }
+      #cost li{
+        list-style-type: upper-roman;
+        color:#00f;
+      }
+      /* CONTACTS PAGE */
+      #contact{
+        height:70vh;
+        width:100%;
+        text-align: center;
+        line-height:1.5;
+        font-size:2rem;
+      }

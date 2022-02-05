@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#top{
+     display:grid;
+        grid-template-columns: 0.5fr 4fr 0.5fr;
+        grid-template-rows: auto;
+}
+.wrapper{
+    grid-column:2/3;
+}
+.eulogy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top:0;
+}
+.eulogy ul{
+    display: flex;
+    margin:1rem;
+}
+ .eulogy li{
+    padding:0;
+    margin:0 1rem;
+    list-style-type: none;
+    
+} 
+a{
+    text-decoration: none;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    padding:0.5rem;
+    border-radius:0.2rem;
+    box-shadow: 0 0 10px rgba(0,0,100,0.6);
+}
+a:hover{
+    color:black;
+    background:white;
+}
+#main-potrait{
+    height:90vh;
+    width:auto;
+    margin:0 6rem;
+    border:2px solid #000;
+}
+#gallery, #eulogy, #programme{
+    margin:0 2rem;
+    font-size:1.5rem;
+    line-height:1.5;
+}
+h1{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#00f;
+    text-decoration: underline;
+}
+h3{
+    color:#00f;
+    padding: 0.5rem 0;
+}
+.sub-headings{
+    color:#00f;
+    font-weight:bold;
+    text-decoration: underline;
+}
+h5{
+    text-align:center;
+    font-style: italic;
+    padding-top:0.3rem;
+}
+#travel{
+    list-style-type: number;
+    padding:2rem;
+}
+#events{
+    list-style-type:upper-roman;
+    padding:2rem;
+}
+#responsibilities{
+    list-style-type: disc;
+    padding:2rem;
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#gallery>div{
+    height:20rem;
+    width:20rem;
+    margin:0.5rem;
+    border:1px solid #000;
+    transition: 3s ease;
+}
+#gallery>div:nth-of-type(1n){
+    background:#fff;
+}
+#gallery>div:nth-of-type(2n){
+    background:red;
+}
+#gallery>div:hover{
+    height:30rem;
+    width:30rem;
+}
+#gallery>div>p{
+    text-align:center;
+    margin-top:80%;
+    color:#000;
+}
+.top{
+    text-align:center;
+    margin:1rem 0;
+}
+hr{
+    border: 2px solid #00f;
+}
+#bottom{
+    padding:1rem;
+}
+#bottom p{
+    margin:0 6rem;
+    font-size:1.2rem;
+    line-height:1.5;
+}
+

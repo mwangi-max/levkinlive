@@ -1,393 +1,137 @@
-@media(min-width:768px){
-    .navbar li a, #second-menu li a{
-        font-size:1.2rem;
-        padding:0.2rem;
-    }
-    #identity{
-        padding:2rem 0;
-    }
+@media(max-width:768px){
     #identity img{
-        height:12rem;
-        width:15rem;
-        padding:2rem 0;
-    }
-    .navbar .fa{
-  display:inline-block;
-  padding:0 0.2rem;
-}
-.navbar .fas{
-  display: inline-block;
-  padding:0 0.2rem;
-}
-#second-menu{
-    padding-top:1.5rem;
-    padding-right:1rem;
-    z-index:10;
-}
-    #identity{
-        flex-direction: row;
-    }
-    #logo{
-        margin:0.5rem;
-    }
-    #who{
-        display:grid;
-        grid-template-columns: 0.5fr 3fr 0.5fr;
-    }
-    .who-we-are{
-        grid-column: 2/3;
-    }
-    #me{
-        display:flex;
-        align-items:center;
-        justify-content: space-evenly;
-        padding:1rem;
-    }
-    #fam{
-        display:flex;
-        flex-direction: column;
-        align-items:flex-start;
-    }
-    #kamau{
-        font-size:1.2rem;
-        border-right:3px solid #00f;
-        padding:0 1rem;
-         
-    }
-    #photo{
-        padding:0.3rem;
-        border-radius: 5%;
-        background:red;
-        margin-left:1rem;
-    }
-    #home p{
-        font-size:1.2rem;
-        text-decoration: underline;
-    }
-    .val{
-        font-size:1.2rem;
-        line-height:1.5;
-    }
-    .one, .vote{
-        float:left;
-        height:20rem;
-        padding:0 1rem;
-    }
-    .weddo{
-        height:24rem;
-        float:left;
-        padding: 0 1rem;
-    }
-    .medium{
-        height:20rem;
-        float:left;
-        padding:0 1rem 1rem 1rem;
-    }
-    .middle{
-        height:18rem;
-        float:left;
-        padding:0 1rem 0.1rem 1rem;
-    }
-    #boost{
-        padding-top:5rem;
-    }
-    .last{
-        height:18rem;
-        float:left;
-        padding: 0 1rem;
-    }
-}
-@media(min-width:920px){
-    .wrapper{
-        display:grid;
-        grid-template-columns: 1fr auto 1fr;
-        grid-template-rows: auto;
-    } 
-    #shorts{
-        grid-column:2/3;
-    }
-    .fupi-b{
-        display:grid;
-        grid-column:1/2;
-    }
-    #more{
-        height:10rem;
-        width:auto;
-        padding:0.5rem;
-        position:sticky;
-        top:0;
-    }
-    #me{
-        margin:2rem;
-    }
-    .who-we-are, #content, nav li a, .shorts, .para,.open{
-        font-size:1.3rem;
-        line-height:1.8;
-    }
-    #second-menu{
-        padding-top:1.3rem;
-    }
-     .fupi{
-        display:grid;
-        grid-template-columns: 1fr auto 1fr;
-    } 
-    .fupi-c{
-        display:grid;
-        grid-column:3/-1;
-        height:10rem;
-    }
-  
-    .first{
-        font-size:1.3rem;
-        padding:0.5rem;
-    }
-    .vote{
-        padding:0.5rem;
-    }
-    .terms{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        margin:0 6rem;
-    }
-} 
-@media(min-width:1024px){
-    
-    #identity{
-        box-sizing: border-box;
-    }
-     #identity img{
-        height:18rem;
-        width:20rem;
-    } 
-    .navbar li a, #second-menu li a, .social-media a{
-        font-size:1.2rem;
-    }
-    #second-menu{
-        padding-top:3.8rem;
-        margin-right:0.5rem;
-    }
-    #introduction{
-        font-size:3rem;
-        font-weight: bold;
-    }
-    #more{
-        display:grid;
-        grid-column: 3/4;
-        font-size:1.5rem;
-        height:13rem;
-    }
-    #content, .ku, .shorts, #requiem, #nuptials, #online, #boost, #civic, #refu{
-        margin: 0 6rem;
+        height:7rem;
     }
     
-    .ku a{
+    .navbar li{
         margin:0;
-    }
-    .first{
-        font-size:2rem;
-    }
-    #photo{
-        height:30rem;
-    }
-    .one{
-        float:left;
-    }
-    #kamau, #home p, .val{
-        font-size:1.7rem;
-    }
-    #numbers p{
-        font-size:2rem;
-    }
-}
-@media(min-width:1440px){
-    .navbar{
-        padding:1rem 0;
-    }
-    #second-menu{
-        padding-top:5.4rem;
-        padding-left:0.5rem;
-    }
-.navbar li a, #second-menu li a{
-    font-size: 1.5rem;
-}
-#second-menu li a{
-    background:rgba(0,0,0,0.6);
-    color:#f00;
-}
-#introduction{
-    font-size:3rem;
-    font-weight: bold;
-}
-button{
-    font-size:2.2rem;
-    padding: 0.5rem;
-}
-.social-media a{
-    font-size:2rem;
-}
-.copyright{
-    font-size:1.6rem;
-}
-#content{
-    line-height:2;
-    word-spacing: 0.1rem;
-}
-#more{
-    font-size:1.3rem;
-    height:10rem;
-}
-#photo{
-    height:30rem;
-}
-#kamau, #home p, .val, .first, #numbers p{
-    font-size:2rem;
-}
-fieldset{
-    font-size:1.4rem;
-    margin:0 8rem;
-}
-legend, .mwangi a, .blog{
-    font-size:1.2rem;
-}
-.one{
-    height:50rem;
-    width:40rem;
-    padding-top:1rem;
-}
-.weddo{
-    height:30rem;
-    width:30rem;
-    padding-top:1rem;
-}
-.medium{
-    height:20rem;
-    width:25rem;
-    padding-top:0.5rem;
-}
-#boost{
-    margin-top:3rem;
-}
-.middle{
-    height:25rem;
-    width:30rem;
-}
-.vote{
-    height:30rem;
-}
-}
-@media(min-width:2560px){
-      #identity img{
-        height:30rem;
-        width:35rem;
-    }
-    .navbar li a, #second-menu li a, .social-media a{
-        font-size:2rem;
-        
     }
     .navbar li a{
-       padding:1.4rem;
-       margin:0.5rem;
+        padding:0;
     }
-    #second-menu{
-    margin-top:14rem;
-        margin-right:0.5rem;
+    .fa{
+        display:none;
     }
-    #second-menu li a{
-        margin:0.1rem;
-        padding:1.2rem;
+    .greet{
+        display:none;
     }
-    #introduction{
-        font-size:6rem;
-    }
-    button{
-        font-size:4rem;
-        padding:1rem;
+    #introduction p{
+        font-size:1.5rem;
     }
     .social-media a{
-        font-size:2rem;
-        padding:1rem;
-        margin:0.8rem;
-    }
-    .copyright{
-        font-size:2rem;
         padding:0.1rem;
     }
-    #about,#about>h2,#about>p{
-        font-size:2rem;
-        margin:0 6rem;
+    .copyright{
+        font-size:1rem;
     }
-    #more{
-        height:15rem;
-        width:16rem;
-        font-size:2rem;
+    #second-menu{
+        margin:0;
+        padding:0;
+    }
+    #second-menu li{
+        margin: 0 0 0 1.5rem;
+        padding:0.18rem 0;
+    }
+    #second-menu li a{
+        padding:0.2rem;
+    }
+    /* About page */
+    .wrapper{
+        display:block;
     }
     #photo{
-        height:55rem;
-        width:auto;
-    }
-    #kamau{
-        font-size:2.2rem;
-    }
-    
-    #home p, .val,.first, .blog, .mwangi a{
-        font-size:2rem;
-    }
-    fieldset,legend{
-        font-size:1.4rem;
-        margin:0;
+        height:20rem;
         padding:0.5rem;
     }
-    .shorts, .para, .open{
-        font-size:2rem;
-    }
-    .first{
-        font-size:3rem;
-    }
-    .fupi{
-        margin:0 6rem;
-        font-size:2rem;
-        display:flex;
+    #me{
         flex-direction: column;
     }
-    #refu > div{
-        margin:2rem 0;
+    .first{
+        font-size:1.4rem;
     }
-    .one{
-        float:left;
-        height:50rem;
+    #about{
+        font-size:1.2rem;
+        line-height:1.5;
+        margin:0 1rem;
+    }
+    #more{
+        height:4rem;
+        margin:0.5rem 2rem;
+        font-size:0.8rem;
+    }
+    .ku{
+        margin:0.1rem 1rem;
+    }
+    #kamau{
+        font-size:1.3rem;
+        padding-top:0.5rem;
+        text-align: center;
+    }
+    #home p{
+        padding-top:0.5rem;
+        font-size:1.2rem;
+        font-weight:bold;
+    }
+    .val li{
+        font-size:1.2rem;
+        margin-left:2rem;
+    }
+    #you{
+        margin:0 1rem;
+        padding:0.3rem 0;
+    }
+    fieldset{
+        padding:0.4rem;
+        font-size:1.1rem;
+    }
+     .mwangi a,.blog{
+      margin:0.3rem;
+      padding:0.2rem;
+      border-radius:0.2rem;
+      font-size:1rem;
+    }
+    /* Shorts page */
+    .fupi{
+        display:block;
+    }
+    .one, .mwisho,.vote{
+      height:12rem;
+      width:auto;
+    } 
+    .weddo, .kuandika{
+      height:20rem;
+      width:auto;
+    }
+    #shorts{
+        margin:0 1rem;
+        font-size:1.2rem;
+    }
+    .para{
+        margin-left:1.6rem;
+    }
+    
+    /* Longs section */
+    .refu{
+        display: block;
+    }
+    .last{
+        height:12rem;
         width:auto;
     }
-    .weddo{
-        height:40rem;
-        width:auto;
-        margin-right:0.5rem;
+    #longs{
+        margin:0 1rem;
+        font-size:1.2rem;
     }
-    .middle{
-        height:30rem;
-        width:auto;
+    
+    /* Terms and conditions */
+    .terms{
+        margin:0 1rem;
+        font-size:1.2rem;
     }
-    .vote{
-        height:35rem;
-        width:auto;
-        margin-right:0.5rem;
+    
+    /* Contact */
+    #contact{
+        font-size:1.5rem;
     }
-    .kuandika{
-        height:30rem;
-        width:auto;
-    }
-    .design{
-        height:30rem;
-        width:50rem;
-    }
-    .seo{
-        height:35rem;
-        float:left;
-    }
-    .facebook{
-        height:32rem;
-    }
-    #numbers p{
-        font-size:3.5rem;
-    }
+    
 }
