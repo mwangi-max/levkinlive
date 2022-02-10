@@ -48,6 +48,7 @@ a:hover{
     width:auto;
     margin:0 6rem;
     border:2px solid #000;
+    border-radius:1rem;
 }
 #gallery, #eulogy, #programme{
     margin:0 2rem;
@@ -59,6 +60,8 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#00f;
     text-decoration: underline;
+    margin-top:1rem;
+    padding-top:2rem;
 }
 h3{
     color:#00f;
@@ -69,10 +72,9 @@ h3{
     font-weight:bold;
     text-decoration: underline;
 }
-h5{
+.gallery,.potrait{
     text-align:center;
     font-style: italic;
-    padding-top:0.3rem;
 }
 #travel{
     list-style-type: number;
@@ -105,10 +107,10 @@ h5{
 #gallery>div:nth-of-type(2n){
     background:red;
 }
-#gallery>div:hover{
-    height:30rem;
-    width:30rem;
-}
+/* #gallery>div:hover{
+    height:26rem;
+    width:26rem;
+} */
 #gallery>div>p{
     text-align:center;
     margin-top:80%;
@@ -128,5 +130,53 @@ hr{
     margin:0 6rem;
     font-size:1.2rem;
     line-height:1.5;
+}
+
+/* Sample on a small screen */
+@media(max-width:768px){
+    #top{
+        display:block;
+        margin:0 1rem;
+    }
+    h1{
+        font-size:1.3rem;
+    }
+    #main-potrait{
+    height:90vh;
+    margin:0 1rem;
+}
+#gallery>div{
+    height:20rem;
+    width:20rem;
+    padding:2rem;
+    }
+    #eulogy, #programme,#gallery{
+        font-size:1.2rem;
+        padding-top:0.2rem;
+    }
+    h3{
+        font-size:1.25rem;
+    }
+    .eulogy ul{
+        margin-top:0.4rem;
+    }
+    .eulogy li{
+        margin:0.18rem;
+    }
+    #heading{
+        font-size:1.15rem;
+        margin:0;
+        padding:0;
+    }
+    #bottom{
+        padding:0.2rem;
+    }
+    #bottom p{
+        margin:0 1rem;
+    }
+    #bottom p a{
+        padding:0.2rem;
+        font-size:1.1rem;
+    }
 }
 

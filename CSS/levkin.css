@@ -4,12 +4,12 @@
     }
     
     .navbar li{
-        margin:0;
+        margin:0.1rem;
     }
     .navbar li a{
-        padding:0;
+        padding:0.1rem;
     }
-    .fa{
+    .navbar li a .fa, .fa-arrow-down{
         display:none;
     }
     .greet{
@@ -26,14 +26,12 @@
     }
     #second-menu{
         margin:0;
-        padding:0;
+        padding-top:0.2rem;
+        padding-left:0.9rem;
     }
     #second-menu li{
-        margin: 0 0 0 1.5rem;
-        padding:0.18rem 0;
-    }
-    #second-menu li a{
-        padding:0.2rem;
+        padding:0;
+        margin:0;
     }
     /* About page */
     .wrapper{

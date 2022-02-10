@@ -85,6 +85,11 @@ header{
   display:grid;
   z-index:10;
 }
+.current{
+  font-style: italic;
+  font-weight: bolder;
+  border-bottom:4px solid #00f;
+}
 #intro{
   height:70vh; 
   width:100%;
@@ -109,15 +114,16 @@ header{
 }
 #levkin a{
   text-decoration:none;
+  border:1px solid #f00;
   font-size:1.2rem;
-  background:rgba(255,0,0,0.7);
+  background:rgba(0,0,0,1);
   padding:0.5rem;
-  border-radius:0.2rem;
-  box-shadow: 0 0 15px #f00;
+  border-radius:1rem;
+  box-shadow: 0 0 25px #f00;
+  color:white;
 }
 #levkin a:hover{
-  background:white;
-  color:red;
+  background:red;
 }
 #showcase{
   background:url(/levkinlive/PICTURES/showcase-main.jpg) no-repeat center center/cover;
