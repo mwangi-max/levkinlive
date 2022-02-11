@@ -78,15 +78,15 @@ h3{
 }
 #travel{
     list-style-type: number;
-    padding:2rem;
+    padding:0 1.4rem;
 }
 #events{
     list-style-type:upper-roman;
-    padding:2rem;
+    padding:0 2.2rem;
 }
 #responsibilities{
     list-style-type: disc;
-    padding:2rem;
+    padding:0 2rem;
 }
 #gallery{
     display: flex;
@@ -136,7 +136,7 @@ hr{
 @media(max-width:768px){
     #top{
         display:block;
-        margin:0 1rem;
+        margin:0 0.5rem;
     }
     h1{
         font-size:1.3rem;
@@ -153,6 +153,7 @@ hr{
     #eulogy, #programme,#gallery{
         font-size:1.2rem;
         padding-top:0.2rem;
+        margin:0 0.2rem;
     }
     h3{
         font-size:1.25rem;

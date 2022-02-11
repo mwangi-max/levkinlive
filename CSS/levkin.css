@@ -21,8 +21,14 @@
     .social-media a{
         padding:0.1rem;
     }
+    footer{
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
     .copyright{
         font-size:1rem;
+        margin-top:0.2rem;
     }
     #second-menu{
         margin:0;
@@ -118,6 +124,13 @@
     }
     #longs{
         margin:0 1rem;
+        font-size:1.2rem;
+    }
+    /* How we came about */
+    .who-we-are{
+        margin:0 1rem;
+    }
+    #how{
         font-size:1.2rem;
     }
     
