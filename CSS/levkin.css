@@ -1,6 +1,17 @@
 @media(max-width:768px){
+    body{
+        font-size:16px;
+        line-height:24px;
+    }
+    .navbar li a{
+        font-size:16px;
+    }
     #identity img{
         height:7rem;
+    }
+    .fa-star{
+        font-size:0.8rem;
+        color:#ff0000;
     }
     
     .navbar li{
@@ -19,7 +30,7 @@
         font-size:1.5rem;
     }
     .social-media a{
-        padding:0.1rem;
+        padding:0.2rem;
     }
     footer{
         flex-direction: column;
@@ -31,14 +42,10 @@
         margin-top:0.2rem;
     }
     #second-menu{
-        margin:0;
-        padding-top:0.2rem;
-        padding-left:0.9rem;
+        margin-left:0.8rem;
+        padding:0.2rem;
     }
-    #second-menu li{
-        padding:0;
-        margin:0;
-    }
+    
     /* About page */
     .wrapper{
         display:block;
@@ -48,10 +55,17 @@
         padding:0.5rem;
     }
     #me{
-        flex-direction: column;
+        grid-template-areas: 
+        "photo"
+        "kamau"
+        "home";
+        margin:0 1rem;
+    }
+    #image-container-a{
+        text-align:center;
     }
     .first{
-        font-size:1.4rem;
+        font-size:18px;
     }
     #about{
         font-size:1.2rem;
@@ -81,18 +95,18 @@
         margin-left:2rem;
     }
     #you{
-        margin:0 1rem;
+        margin: 3rem 1rem 1rem;
         padding:0.3rem 0;
     }
     fieldset{
         padding:0.4rem;
         font-size:1.1rem;
     }
-     .mwangi a,.blog{
-      margin:0.3rem;
+       .mwangi a{
+           margin:0.2rem;
       padding:0.2rem;
       border-radius:0.2rem;
-      font-size:1rem;
+      font-size: 16px;
     }
     /* Shorts page */
     .fupi{
@@ -138,6 +152,9 @@
     .terms{
         margin:0 1rem;
         font-size:1.2rem;
+    }
+    #cost{
+        margin-left:1.5rem;
     }
     
     /* Contact */

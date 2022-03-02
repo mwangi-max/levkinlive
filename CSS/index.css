@@ -8,11 +8,14 @@ ul,li{
 }
 body{
   box-sizing: border-box;
-  background:rgba(200, 200,200, 0.2);
+  background:#1F1926;
+  color:#FDF7FF;
   height:100%;
   width:100%;
-  font-family:Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   position:relative;
+  font-size: 24px;
+  line-height: 36px;
 }
 /* Home page */
 header{
@@ -25,7 +28,7 @@ header{
   position:sticky;
   top:0;
   box-sizing: border-box;
-  background: rgba(0,0,0,0.7);
+  background: #FDF7FF;
 }
 #identity img{
   height:15rem;
@@ -43,22 +46,29 @@ header{
   margin:0 1rem;
   position:relative;
 }
-.navbar li a,.social-media a{
+.navbar li a{
+  color:#FF0000;
+  font-weight:bold;
+  font-size:22px;
+  text-decoration:none;
+}
+.social-media a{
   text-decoration: none;
-  background:#fff;
+  background:#FF0000;
   padding:0.8rem;
   border-radius:0.3rem;
-  color:red;
-   box-shadow: 0 0 15px #f00;
+  color:#FDF7FF;
 
 }
 .navbar li a:hover{
-  background:red;
-  color:white;
+  background:#1F1926;
+  color:#FDF7FF;
+  padding:0.2rem;
+  border-radius:0.4rem;
 }
 .social-media a:hover{
-  background:red;
-  color:white;
+  background:#1F1926;
+  color:#FDF7FF;
 }
 .fa, .fab{
   padding:0 0.1rem;
@@ -69,13 +79,14 @@ header{
   justify-content: center;
   align-items: center;
   position:absolute;
-  margin-top:1.3rem;
-  margin-left:1.4rem;
+  margin-left:1.8rem;
   display:none;
   flex-wrap:wrap; 
+  background:#1F1926;
+  padding:0.2rem;
 }
 #second-menu li{
-  margin:0.4rem 0;
+  margin:0;
  
 }
 #space{
@@ -85,13 +96,8 @@ header{
   display:grid;
   z-index:10;
 }
-.current{
-  font-style: italic;
-  font-weight: bolder;
-  border-bottom:4px solid #00f;
-}
 #intro{
-  height:70vh; 
+  height:100vh; 
   width:100%;
   display:flex;
   justify-content: center;
@@ -107,6 +113,8 @@ header{
 #introduction p{
   text-align:center;
   font-size:3rem;
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
   padding-bottom:1.6rem;
   font-weight: bolder;
 }
@@ -115,16 +123,19 @@ header{
 }
 #levkin a{
   text-decoration:none;
-  border:1px solid #f00;
-  font-size:1.2rem;
-  background:rgba(0,0,0,1);
+  font-size:20px;
+  font-weight: bold;
+  background:#1f1926;
+  color:#FDF7FF;
   padding:0.5rem;
   border-radius:1rem;
-  box-shadow: 0 0 25px #f00;
-  color:white;
+  box-shadow:0 0 30px #FF0000;
 }
 #levkin a:hover{
-  background:red;
+  background:#FF0000;
+  color:#1f1926;
+  box-shadow:0 0 30px #1f1926;
+  
 }
 #showcase{
   background:url(/levkinlive/PICTURES/showcase-main.jpg) no-repeat center center/cover;
@@ -141,7 +152,7 @@ footer{
   display:flex;
   justify-content:space-evenly;
   align-items:center;
-  background: rgba(0,0,0,0.7);
+  background: #FDF7FF;
   flex-wrap:wrap;
   overflow:hidden;
   padding-top:1rem;
@@ -149,15 +160,26 @@ footer{
 .copyright{
   margin-top: 1rem;
   font-size:1.5rem;
-  color:#fff;
+  color:#1F1926;
 }
 /* About page */
 .first{
-  font-size:2rem;
-  color:#00f;
+  font-size:38PX;
+  color:#FF0000;
   text-align:center;
   padding:0.5rem 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fa-star{
+  color:#FF0000;
+}
+.links{
+  color:#FDF7FF;
+  text-decoration: underline;
+}
+.link{
+  color:#FF0000;
+  text-decoration: underline;
 }
  .wrapper{
         display:grid;
@@ -171,9 +193,11 @@ footer{
         height:8rem;
         line-height:1.2;
         font-size:1rem;
+        font-style: italic;
         padding:0.5rem;
-        background:rgba(0,0, 100, 0.3);
-        border-left:2px solid #00f;
+        background:#FDF7FF;
+        color:#1F1926;
+        border-left:2px solid #FF0000;
     }
     #about{
       grid-column:2/3;
@@ -181,36 +205,48 @@ footer{
       font-size:1.5rem;
     }
     #me{
-      display:flex;
-      align-items:center;
-      margin:0 6rem;
+      display:grid;
+      grid-template-areas: 
+      " photo kamau"
+      "photo home";
+      margin:0 4rem;
     }
     #photo{
+      grid-area: "photo";
       height:30rem;
       padding:1rem;
       background:#f00;
       border-radius:0.5rem;
     }
     #kamau{
-      text-align:center;
-      font-size:1.5rem;
-      margin:0 1rem;
+      grid-area:"kamau";
+      font-size:24px;
+      background:#FDF7FF;
+      color:#1F1926;
+      padding:20px;
+      height:50%;
     }
     #kamau span{
-      color:#f00;
+      color:#F00;
       font-weight:bold;
     }
+    #home{
+      grid-area:"home";
+      background:#FF0000;
+      padding:10px 0 10px 40px;
+    }
+    #home p{
+      color:#FDF7FF;
+    }
     #home p, .val{
-      margin:0 2rem;
-      font-size:1.5rem;
+      font-size:24px;
     }
     .val{
-      color:#00f;
+      color:#1F1926;
     }
     #you{
       margin:0 6rem;
       padding-bottom:1rem;
-      font-size:1.3rem;
     }
     legend{
       margin-left:1rem;
@@ -229,16 +265,20 @@ footer{
     }
     .mwangi a{
       margin:0.5rem;
-      background:rgba(0,0,70, 0.3);
+      background:#FDF7FF;
+      COLOR:#1f1926;
       padding:0.5rem;
       text-decoration: none;
       border-radius:0.4rem;
+      BOX-SHADOW: 0PX 0PX 15PX #FF0000;
     }
     .blog{
       margin:0.5rem;
       font-size:1rem;
       text-decoration: none;
-      background:rgba(0,0,70, 0.3);
+      background:#1F1926;
+      color:#FDF7FF;
+      box-shadow:0 0 15px #FDF7FF;
       padding:0.3rem;
       border-radius:0.2rem;
     }
@@ -323,7 +363,7 @@ footer{
       }
       #cost li{
         list-style-type: upper-roman;
-        color:#00f;
+        color:#ff0000;
       }
       /* CONTACTS PAGE */
       #contact{
@@ -332,4 +372,8 @@ footer{
         text-align: center;
         line-height:1.5;
         font-size:2rem;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
       }
