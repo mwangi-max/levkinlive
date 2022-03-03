@@ -60,11 +60,11 @@ header{
   color:#FDF7FF;
 
 }
+.active{
+  border-bottom: 2px solid #FF0000;
+}
 .navbar li a:hover{
-  background:#1F1926;
-  color:#FDF7FF;
-  padding:0.2rem;
-  border-radius:0.4rem;
+  border-bottom: 2px solid #1f1926;
 }
 .social-media a:hover{
   background:#1F1926;
@@ -134,7 +134,7 @@ header{
 #levkin a:hover{
   background:#FF0000;
   color:#1f1926;
-  box-shadow:0 0 30px #1f1926;
+  box-shadow:0 0 30px #FDF7FF;
   
 }
 #showcase{
@@ -245,7 +245,7 @@ footer{
       color:#1F1926;
     }
     #you{
-      margin:0 6rem;
+      margin:0 8rem;
       padding-bottom:1rem;
     }
     legend{
@@ -267,10 +267,14 @@ footer{
       margin:0.5rem;
       background:#FDF7FF;
       COLOR:#1f1926;
-      padding:0.5rem;
+      padding:0.6rem;
       text-decoration: none;
       border-radius:0.4rem;
       BOX-SHADOW: 0PX 0PX 15PX #FF0000;
+    }
+    .mwangi a:hover{
+      color:#FDF7FF;
+      background:#FF0000;
     }
     .blog{
       margin:0.5rem;
@@ -278,7 +282,7 @@ footer{
       text-decoration: none;
       background:#1F1926;
       color:#FDF7FF;
-      box-shadow:0 0 15px #FDF7FF;
+      box-shadow:0 0 10px #FDF7FF;
       padding:0.3rem;
       border-radius:0.2rem;
     }
