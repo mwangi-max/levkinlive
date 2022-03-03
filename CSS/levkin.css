@@ -55,11 +55,12 @@
         padding:0.5rem;
     }
     #me{
-        grid-template-areas: 
-        "photo"
-        "kamau"
-        "home";
-        margin:0 1rem;
+        display:flex;
+        flex-direction: column;
+    }
+    .fam{
+        display:flex;
+        flex-direction: column;
     }
     #image-container-a{
         text-align:center;
@@ -81,9 +82,13 @@
         margin:0.1rem 1rem;
     }
     #kamau{
-        font-size:1.3rem;
+        font-size:1.2rem;
         padding-top:0.5rem;
         text-align: center;
+        margin:1rem 1rem 0 1rem;
+    }
+    #home{
+        margin:0rem 1rem;
     }
     #home p{
         padding-top:0.5rem;
@@ -95,18 +100,34 @@
         margin-left:2rem;
     }
     #you{
+        display:flex;
+        flex-direction: column;
         margin: 3rem 1rem 1rem;
         padding:0.3rem 0;
     }
     fieldset{
         padding:0.4rem;
-        font-size:1.1rem;
+        font-size:16px;
     }
        .mwangi a{
-           margin:0.2rem;
-      padding:0.2rem;
-      border-radius:0.2rem;
-      font-size: 16px;
+           margin:0 0.4rem;
+      padding:0.4rem;
+      border-radius:50%;
+      font-size: 18px;
+    }
+     .mwangi a:hover{
+      color:#FDF7FF;
+      background:#FF0000;
+      box-shadow: 0 0 15px #FDF7FF;
+    }
+    .blog{
+        font-size:16px;
+        padding:0.2rem;
+    }
+    .blog:hover{
+      color:#1f1926;
+      background:#FF0000;
+      box-shadow: 0 0 10px #FDF7FF;
     }
     /* Shorts page */
     .fupi{
@@ -161,5 +182,4 @@
     #contact{
         font-size:1.5rem;
     }
-    
 }

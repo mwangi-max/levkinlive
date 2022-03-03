@@ -187,9 +187,8 @@ footer{
         grid-template-rows: auto;
     } 
     #more{
-      grid-column:3/-1;
-        margin-top: 4rem;
-        margin-right:2rem;
+        grid-column:3/-1;
+        margin: 4rem 1rem 0 1rem;
         height:8rem;
         line-height:1.2;
         font-size:1rem;
@@ -206,34 +205,38 @@ footer{
     }
     #me{
       display:grid;
-      grid-template-areas: 
-      " photo kamau"
-      "photo home";
-      margin:0 4rem;
+      grid-template-columns: 0.5fr 1fr 1fr;
+      padding-top:1rem;
     }
     #photo{
-      grid-area: "photo";
       height:30rem;
       padding:1rem;
       background:#f00;
       border-radius:0.5rem;
     }
+    #image-container-a{
+      grid-column:2/3;
+    }
+    #fam{
+      display:grid;
+      grid-template-rows: 1fr 1fr;
+      grid-column:3/-1;
+    }
     #kamau{
-      grid-area:"kamau";
       font-size:24px;
+      color:#1f1926;
       background:#FDF7FF;
-      color:#1F1926;
       padding:20px;
-      height:50%;
+      margin-right:2rem;
     }
     #kamau span{
-      color:#F00;
       font-weight:bold;
+      color:#FF0000;
     }
     #home{
-      grid-area:"home";
-      background:#FF0000;
       padding:10px 0 10px 40px;
+      background:#FF0000;
+      margin-right:2rem;
     }
     #home p{
       color:#FDF7FF;
@@ -242,17 +245,23 @@ footer{
       font-size:24px;
     }
     .val{
-      color:#1F1926;
+      color:#FDF7FF;
     }
     #you{
-      margin:0 8rem;
+      display:grid;
+      grid-template-columns: 0.5fr 2fr 0.5fr;
       padding-bottom:1rem;
     }
     legend{
       margin-left:1rem;
+      padding:0.5rem;
     }
     fieldset{
+      grid-column: 2/3;
       padding:1rem;
+    }
+    .founder{
+      grid-column:2/3;
     }
     .connect{
       text-align:center;
@@ -264,27 +273,33 @@ footer{
       flex-wrap: wrap;
     }
     .mwangi a{
-      margin:0.5rem;
+      margin:0 0.8rem;
       background:#FDF7FF;
-      COLOR:#1f1926;
-      padding:0.6rem;
+      color:#1f1926;
+      padding:1rem;
       text-decoration: none;
-      border-radius:0.4rem;
-      BOX-SHADOW: 0PX 0PX 15PX #FF0000;
+      border-radius:50%;
+      box-shadow: 0 0 15px #FF0000;
     }
     .mwangi a:hover{
       color:#FDF7FF;
       background:#FF0000;
+      box-shadow: 0 0 15px #FDF7FF;
     }
     .blog{
       margin:0.5rem;
-      font-size:1rem;
+      font-size:18px;
       text-decoration: none;
       background:#1F1926;
       color:#FDF7FF;
       box-shadow:0 0 10px #FDF7FF;
       padding:0.3rem;
       border-radius:0.2rem;
+    }
+    .blog:hover{
+      color:#1f1926;
+      background:#FF0000;
+      box-shadow: 0 0 10px #FDF7FF;
     }
 
     /* How we came about */
