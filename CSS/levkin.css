@@ -35,17 +35,13 @@
     }
     
     footer{
-    display: grid;
-    grid-template-rows: 0.5fr 0.5fr;
-    padding-bottom: 10px;
+    display: flex;
     }
     .social-media a{
-        grid-row:1/2;
         padding:2px;
         font-size:16px;
     }
     .copyright{
-        grid-row:2/-1;
         font-size:16px;
         margin-bottom:20px;
     }
