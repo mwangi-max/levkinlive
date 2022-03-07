@@ -35,18 +35,18 @@
     }
     
     footer{
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    padding-bottom: 10px;
     }
     .social-media a{
+        grid-row:1/2;
         padding:2px;
         font-size:16px;
     }
     .copyright{
+        grid-row:2/-1;
         font-size:16px;
-        margin:10px 0;
     }
     #second-menu{
         margin-left:0.8rem;
